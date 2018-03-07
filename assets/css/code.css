@@ -4,6 +4,7 @@
 .k { /*color: rgb(204,120,50);*/ font-weight: bold } /* Keyword */
 .kt { color: rgb(51, 56, 60); font-weight: bold } /* Keyword.Type */
 .kc { color: rgb(68, 137, 128); font-weight: bold } /* Keywords.Constant */
+.kn { color: rgb(68, 137, 128); font-weight: bold } /* Keywords.Constant */
 .o { color: rgb(51, 56, 60); } /* Operator */
 .m { color: rgb(104,151,187); } /* Literal.Number */
 .s { color: rgb(73, 180, 69); } /* Literal.String */
