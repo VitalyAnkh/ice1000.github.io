@@ -8,7 +8,9 @@
 .kd { font-weight: bold }
 .o { color: rgb(51, 56, 60); } /* Operator */
 .m { color: rgb(104,151,187); } /* Literal.Number */
+.mi { color: rgb(104,151,187); } /* Literal.Int */
 .s { color: rgb(73, 180, 69); } /* Literal.String */
 .cm { color: rgb(128,128,128); font-style: italic } /* Comment.Multiline */
 .cp { color: rgb(98,151,85); } /* Comment.Preproc */
 .cs { color: rgb(98,151,85); font-style: italic } /* Comment.Special */
+.c1 { color: rgb(128,128,128); font-style: italic } /* Comment */
