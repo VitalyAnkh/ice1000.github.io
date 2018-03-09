@@ -102,7 +102,7 @@ fun main(args: Array<String>) {
 
 我拿出了 IntelliJ 自带的 CSS 图片的 png 文件，直接将它的 RGBA 值抄过去。然后发现原版图标写了 CSS 字样的部分，每个像素的透明度都不一样。
 
-于是我就只能“只抄没字样的部分，字样直接采用彩色背景的透明度”。
+于是我就只能『只抄没字样的部分，字样直接采用彩色背景的透明度』。
 
 > 你永远不懂我伤悲，像白天不懂夜的黑 <br/> ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/5/2.png)
 

@@ -72,7 +72,7 @@ description: Use Material Design on desktop
 
 ## 小成果
 
-+ <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>S</kbd>，打开项目设置(Project Structure)，选择这个绿色的”+“符号。
++ <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>S</kbd>，打开项目设置(Project Structure)，选择这个绿色的』+『符号。
 
 ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/old/java/javafx1/10.png)
 
@@ -86,9 +86,9 @@ description: Use Material Design on desktop
 
 ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/old/java/javafx1/8.png)
 
-可以看到， Main.java 在文件树中的图标有一点点不同——它是一个蓝色的”C“，旁边还有一个绿色三角形。这表明这个类是可以直接运行的。
+可以看到， Main.java 在文件树中的图标有一点点不同——它是一个蓝色的』C『，旁边还有一个绿色三角形。这表明这个类是可以直接运行的。
 
-+ 把你的视线移到右上角，看到那个绿色的小箭头了吗？点击这个小箭头。这个小箭头是”运行“的意思。
++ 把你的视线移到右上角，看到那个绿色的小箭头了吗？点击这个小箭头。这个小箭头是』运行『的意思。
 
 ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/old/java/javafx1/9.png)
 
@@ -98,7 +98,7 @@ description: Use Material Design on desktop
 
 别急，我已经料到了。（不要打我）这时重新打开你的 Scene Builder。
 
-+ 按照下图中”step 1“ -> ”step 2“ -> ”step 3“的顺序依次点击，也就是分别点击那个 JFXButton、右上角的 Properties、以及点击 Properties 之后出现的菜单中的”Text“选项、随便输入一段文字，如果你同意图中的话的话，就和我写一样的文字吧。输入完了之后回车一下。
++ 按照下图中』step 1『 -> 』step 2『 -> 』step 3『的顺序依次点击，也就是分别点击那个 JFXButton、右上角的 Properties、以及点击 Properties 之后出现的菜单中的』Text『选项、随便输入一段文字，如果你同意图中的话的话，就和我写一样的文字吧。输入完了之后回车一下。
 
 ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/old/java/javafx1/12.png)
 

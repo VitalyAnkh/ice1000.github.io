@@ -32,7 +32,7 @@ description: JNI Tutorial
 
 ## 先想个你要写的东西
 
-由于目前 Rust 调用 JNIEnv 的方法没有成熟的解决方案（辣鸡 jni-rs （如果你不知道为什么我说他们辣鸡，看到下面你就明白了）），我们先写点简单的数值计算方法。
+由于目前 Rust 调用 `JNIEnv` 的方法没有成熟的解决方案（辣鸡 jni-rs （如果你不知道为什么我说他们辣鸡，看到下面你就明白了）），我们先写点简单的数值计算方法。
 
 比如，我们要计算一个整数的平方，和它的平方根向下取整。
 
@@ -40,12 +40,12 @@ description: JNI Tutorial
 
 先使用 Kotlin 写好 JVM 端的接口。这一步非常简单，下面的代码就算你不会 Kotlin 你也能看懂个百分之八九十。
 
-然后顺便编写对应的测试代码。这里我们就不使用自动化测试框架了，直接写进 fun main 即可。
+然后顺便编写对应的测试代码。这里我们就不使用自动化测试框架了，直接写进 `fun main` 即可。
 
 需要注意的地方：
 
-+ Java 的 native 保留字在 Kotlin 中对应的是 external 。
-+ 请注意如果出现莫名其妙的 UnsatisfiedLinkError ，请对你的方法使用 @JvmName("compiledMethodName") 进行修饰。
++ Java 的 `native` 保留字在 Kotlin 中对应的是 `external` 。
++ 请注意如果出现莫名其妙的 `UnsatisfiedLinkError` ，请对你的方法使用 `@JvmName("compiledMethodName")` 进行修饰。
 + 其他和 Java 基本相同。
 
 ```kotlin
@@ -72,14 +72,14 @@ object Main {
 }
 ```
 
-上面说的莫名其妙的 UnsatisfiedLinkError 有很大可能是因为 Kotlin 编译到 JVM 的时候有些方法名会改变，所以我们需要使用 @JvmName 来控制编译器行为。
+上面说的莫名其妙的 `UnsatisfiedLinkError` 有很大可能是因为 Kotlin 编译到 JVM 的时候有些方法名会改变，所以我们需要使用 `@JvmName` 来控制编译器行为。
 
 Rust 也有一些需要注意的地方。
 
-+ 需要先定义 jint, jlong 等类型。
-+ 导出的方法使用 pub extern 修饰，它其实就是 JNIEXPORT 。
-+ 需要使用 #[no_mangle] 避免出和 Kotlin 那个一样的车祸：方法名被编译器改变。
-+ #![allow(non_snake_case, non_camel_case_types)] 可以去掉那个很烦的 warning 。
++ 需要先定义 `jint`, `jlong` 等类型。
++ 导出的方法使用 `pub extern` 修饰，它其实就是 `JNIEXPORT` 。
++ 需要使用 `#[no_mangle]` 避免出和 Kotlin 那个一样的车祸：方法名被编译器改变。
++ `#![allow(non_snake_case, non_camel_case_types)]` 可以去掉那个很烦的 warning 。
 
 ```rust
 type jint = i32;
@@ -181,12 +181,13 @@ println(getSqrt(256))
 
 中， 15 16 的平方，和 16  256 的平方根。至于求平方根更好的算法，不是这里讲解的重点，重点是讲清楚怎么在 Rust 和 Kotlin 中使用 JNI 。
 
-如果你运气不好，遇到了鬼迷日眼的 UnsatisfiedLinkError ，那么换上女装再试一次吧。
+如果你运气不好，遇到了鬼迷日眼的 `UnsatisfiedLinkError` ，那么换上女装再试一次吧。
 
-然后你肯定会很想问：怎么使用 GetIntArrayElements 这类方法呢？
+然后你肯定会很想问:
 
-于是我们求助于社区。
+> 怎么使用 `GetIntArrayElements` 这类方法呢？
 
+于是我们求助于社区。  
 然后整个过程大概就是。。。我给你们看一个链接你们就应该明白了。虽然这个 issue 是因为我傻逼，但是可以看出他们这个破 jni-rs 还是 Naive ，还需要学习一个。
 
 [jni-rs issues #2](https://github.com/prevoty/jni-rs/issues/5#issuecomment-277795235)
@@ -249,7 +250,7 @@ pub extern fn Java_jni_Main_newIntArray(env: JNIEnv, jc: jclass, jint len) {
 }
 ```
 
-只有觉同学给了一个在 unsafe 块里调用的方法。。。。而且我自己也没有测试能不能跑。
+只有觉同学给了一个在 `unsafe` 块里调用的方法。。。。而且我自己也没有测试能不能跑。
 
 所以我还是老老实实 C++ 吧。
 

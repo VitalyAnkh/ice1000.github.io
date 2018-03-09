@@ -19,7 +19,7 @@ description: Kotlin functions for Kotlin Primer
 
 ### 声明
 
-即使 Kotlin 是一门面向对象的编程语言，它也是有函数的概念的——而不像 Java 那样，仅仅有“方法”。
+即使 Kotlin 是一门面向对象的编程语言，它也是有函数的概念的——而不像 Java 那样，仅仅有『方法』。
 
 Java 中有静态方法来代替函数的作用，但是 Kotlin 的函数比 Java 的静态方法自由度大很多。
 我们先来看几个例子。
@@ -139,7 +139,7 @@ fun main(args: Array<String>) {
 这是**[函数式编程](https://en.wikipedia.org/wiki/Functional_programming)**的约定。
 
 > 关于函数式编程：<br/>
-函数式编程是一种学院派的编程范式，与之对应的是“命令式编程”。它常常与数学中的范畴论（ category theory ）结合，追求编写更易维护、并发性更好的程序。业界对它褒贬不一，笔者倾向于将它与面向对象编程结合。
+函数式编程是一种学院派的编程范式，与之对应的是『命令式编程』。它常常与数学中的范畴论（ category theory ）结合，追求编写更易维护、并发性更好的程序。业界对它褒贬不一，笔者倾向于将它与面向对象编程结合。
 
 虽然 Hadi Hariri 曾经在 JetBrains 中国开发者日上说过 Kotlin 不是函数式编程语言，但是 Kotlin 有大量的（看起来非常）函数式的特性、约定、标准库函数。
 因此我们可以默认它是追求函数式编程的，那么就应该尽可能遵循函数式法则。
@@ -230,7 +230,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-这个功能基本就是用于将代码变得“更易阅读”。
+这个功能基本就是用于将代码变得『更易阅读』。
 Scala 所有函数缺省支持中缀表达式， Kotlin 需要单独声明。
 
 ### 操作符重载
@@ -422,7 +422,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-有一个操作符，这个操作符不是严格意义上的“操作符”，但它比起其它的操作符重载，它还多了一个特权。它就是 in 操作符。
+有一个操作符，这个操作符不是严格意义上的『操作符』，但它比起其它的操作符重载，它还多了一个特权。它就是 in 操作符。
 
 ```kotlin
 class A {
@@ -523,7 +523,7 @@ Kotlin 关于操作符重载的内容确实比较繁杂，但是比起 C++的操
 
 好了这是函数式编程的重头戏——[Lambda 表达式](https://en.wikipedia.org/wiki/Lambda_expression)。
 
-Lambda 表达式俗称匿名函数，熟悉 Java 的大家应该也明白这是个什么概念。Kotlin 的 Lambda 表达式更“纯粹”一点，
+Lambda 表达式俗称匿名函数，熟悉 Java 的大家应该也明白这是个什么概念。Kotlin 的 Lambda 表达式更『纯粹』一点，
 因为它是真正把 Lambda 抽象为了一种类型，而 Java 只是单方法匿名接口实现的语法糖罢了。
 
 Lambda 在 Java 中非常常用，这里不再单独介绍它。
@@ -706,7 +706,7 @@ fun main(args: Array<String>) {
 
 最后说的这个下划线的特性是 Kotlin1.1 才引入的。
 
-**请读者注意不要混淆上面的两个“多参数”，第一处说的是函数多参数，第二处说的是 Lambda 多参数。**
+**请读者注意不要混淆上面的两个『多参数』，第一处说的是函数多参数，第二处说的是 Lambda 多参数。**
 
 我们可以通过 Lambda 表达式来勉强地实现函数的[柯里化](https://en.wikipedia.org/wiki/Currying)：
 
@@ -802,7 +802,7 @@ fun main(args: Array<String>) {
 
 已经说过了 Lambda 的 invoke 写法所以这里不再提及。
 
-当你需要调用一个接收了“有返回值的 Lambda”的函数时，这样的写法是会报错的：
+当你需要调用一个接收了『有返回值的 Lambda』的函数时，这样的写法是会报错的：
 
 ```kotlin
 fun main(args: Array<String>) {
@@ -827,7 +827,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-这叫做“Label return”，其中```return@```后面的标签（ Label ）是你要 return 的 Lambda 所传递给的函数名（比如上面就是 function ）。
+这叫做『Label return』，其中```return@```后面的标签（ Label ）是你要 return 的 Lambda 所传递给的函数名（比如上面就是 function ）。
 
 如果你的函数名是 kotlinIsAwesome ，那么你就需要这样写：
 
@@ -898,7 +898,7 @@ fun noInlineFunction(noinline f: () -> Unit) {
 
 ## 扩展函数
 
-扩展可谓是 Kotlin 的“killer feature”，它只是一个语法糖，却是一个（有时）难以理解的语法糖，一般黑带 Kotlin 程序员会谨慎并大量地使用它。
+扩展可谓是 Kotlin 的『killer feature』，它只是一个语法糖，却是一个（有时）难以理解的语法糖，一般黑带 Kotlin 程序员会谨慎并大量地使用它。
 
 在 IDE 的帮助下，扩展对原库的污染已经不再是污染，因为扩展和原方法会被高亮给清晰地区分开。
 
@@ -910,7 +910,7 @@ fun noInlineFunction(noinline f: () -> Unit) {
 
 > 就是使用一些语法糖来假装给一些类添加方法，并像真正的方法一样调用它。
 
-为什么要“假装给类添加方法”呢？
+为什么要『假装给类添加方法』呢？
 
 > 你有种给 java.io.File 类添加一个 openOrCreate 方法啊？
 
@@ -1035,7 +1035,7 @@ fun File.openOrCreate() {
 
 ### 扩展 Lambda
 
-其实扩展还有一种用途，就是使一个 Lambda 成为“扩展 Lambda”：
+其实扩展还有一种用途，就是使一个 Lambda 成为『扩展 Lambda』：
 
 ```kotlin
 fun main(args: Array<String>) {
@@ -1045,7 +1045,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-看到了吗？ Lambda 表达式也可以被理解为是“对一个类进行扩展的 Lambda”表达式。
+看到了吗？ Lambda 表达式也可以被理解为是『对一个类进行扩展的 Lambda』表达式。
 也就是说，它也可以像扩展方法一样，从内部拿到一个特定的 this ，然后将它作为一个扩展使用。
 
 扩展 Lambda 也可以作为一个函数的参数。
@@ -1081,7 +1081,7 @@ fun File.run(block: File.() -> Unit) {
 }
 ```
 
-还可以结合 Kotlin 的“expression body”：
+还可以结合 Kotlin 的『expression body』：
 
 ```kotlin
 fun File.run(block: File.() -> Unit) = block()
@@ -1124,7 +1124,7 @@ fun <T> runWith(receiver: T, block: T.() -> Unit) {
 }
 ```
 
-这个函数用泛型抽象了一个“runWith”的概念，也就是说传入一个对象和一个扩展给该对象的类型的 Lambda ，然后在这个对象上调用这个 Lambda ：
+这个函数用泛型抽象了一个『runWith』的概念，也就是说传入一个对象和一个扩展给该对象的类型的 Lambda ，然后在这个对象上调用这个 Lambda ：
 
 ```kotlin
 fun main(args: Array<String>) {

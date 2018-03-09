@@ -16,8 +16,8 @@ description: make a simple language with MPS
 
 这篇文章结束之后，我这个 MPS 系列就暂时告一段落了，下一波教程可能很快出来，也有可能要过很久。不过我是不会跳票的！
 
-最早我在写这个系列的时候，就是抱着“反正肯定没人看，不过我就是要写”的任性态度写的，
-结果万万没想到，有好几个人都过来跟我说“在读你的 MPS 系列”，让我内心小鹿乱撞，真是太惊喜了！
+最早我在写这个系列的时候，就是抱着『反正肯定没人看，不过我就是要写』的任性态度写的，
+结果万万没想到，有好几个人都过来跟我说『在读你的 MPS 系列』，让我内心小鹿乱撞，真是太惊喜了！
 所以说我按理说还是会坚持下去的！
 
 ## 准备工作
@@ -39,9 +39,9 @@ description: make a simple language with MPS
 
 ### MPS
 
-MPS 是一个 DSL 开发环境，采用 LOP 的理念，将模块化的组件作为一个个的 DSL。MPS 的“语言”对应 OOP 的“对象”、PP 的“过程”。
+MPS 是一个 DSL 开发环境，采用 LOP 的理念，将模块化的组件作为一个个的 DSL。MPS 的『语言』对应 OOP 的『对象』、PP 的『过程』。
 
-MPS 将程序保存为 AST ，在文件系统中序列化为 xml 保存，在编辑器中渲染为“代码”。
+MPS 将程序保存为 AST ，在文件系统中序列化为 xml 保存，在编辑器中渲染为『代码』。
 
 你看到的，是 MPS 根据 AST 渲染出来的类似代码的东西，但是它实际上不是代码。
 
@@ -50,7 +50,7 @@ MPS 将程序保存为 AST ，在文件系统中序列化为 xml 保存，在编
 Concept 可以当成是 Java 里面的 class ，它可以有 interface concept （对应 Java 的 interface ），
 可以有 abstract concept （对应 Java 的 abstract class ）。
 
-Concept 的实例就是 AST 的节点，对应 class 的实例是对象。读者可以把 AST 节点理解为“Concept 这种类似 class 的东西的实例”。
+Concept 的实例就是 AST 的节点，对应 class 的实例是对象。读者可以把 AST 节点理解为『Concept 这种类似 class 的东西的实例』。
 
 ### Generator
 
@@ -80,11 +80,11 @@ Editor 是**你的 DSL 的语法**。
 Editor 有两种创建方式，一种是直接创建，一种是针对一个 Concept 创建。
 
 在你的 DSL 中，每个 AST 节点（每个 Println 是一个 AST 节点，每个 PrintlnSet 也是 AST 节点）都需要一个对应的 Editor ，
-然后 MPS 根据这个 Editor 来渲染出你看到的“代码”。
+然后 MPS 根据这个 Editor 来渲染出你看到的『代码』。
 
-Concept 有接口 Concept 来实现组件化，所以 Editor 也可以组件化——你可以做一个子 Editor ，让它“可被应用于”一个 Abstract/Interface Concept ，
+Concept 有接口 Concept 来实现组件化，所以 Editor 也可以组件化——你可以做一个子 Editor ，让它『可被应用于』一个 Abstract/Interface Concept ，
 
-然后你就可以在这个 Concept 的实现中“引用”这个 Editor。
+然后你就可以在这个 Concept 的实现中『引用』这个 Editor。
 
 ### 默认 Editor
 
@@ -96,7 +96,7 @@ Concept 有接口 Concept 来实现组件化，所以 Editor 也可以组件化�
 
 我们就直接针对 Concept 创建了。
 
-然后进入我们在第一篇教程中创建的“Concept”，选择 Println 这个 Concept ，打开并创建它对应的 Editor。
+然后进入我们在第一篇教程中创建的『Concept』，选择 Println 这个 Concept ，打开并创建它对应的 Editor。
 
 ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/mps/3/0.png)
 
@@ -130,7 +130,7 @@ Concept 有接口 Concept 来实现组件化，所以 Editor 也可以组件化�
 
 **也就是说，代码写成啥样不重要，只要逻辑（ AST ）不变，你可以随便改变语法，显示出来的代码就会随之改变。**
 
-注意体会一下我之前很早就说过的“MPS 显示的其实是渲染的 AST”。再次提醒自己，你在屏幕上看到的不是文本。
+注意体会一下我之前很早就说过的『MPS 显示的其实是渲染的 AST』。再次提醒自己，你在屏幕上看到的不是文本。
 
 ### 是不是有点懵
 
@@ -205,7 +205,7 @@ MPS 的 Editor 默认只有一个用来放元素的位置，叫做 Editor 的根
 
 #### 关于 ChildNodeList
 
-**child node list**是 MPS 提供来放置“数量不定的 AST 子节点”的 Editor 元素，它有横着的，也有竖着的。
+**child node list**是 MPS 提供来放置『数量不定的 AST 子节点』的 Editor 元素，它有横着的，也有竖着的。
 
 所以我们来，先弄个提示语，然后选择**child node list(vertical)**，这个就是竖着的 ChildNodeList。
 
@@ -233,7 +233,7 @@ set: text: Fuck you ZhiHu Editor!!!!
 
 ### 其他 Editor 功能
 
-比如我们想把那些 text 换到下一行去，可以在 `(\` 上使用<kbd>Alt</kbd>+<kbd>Enter</kbd>，然后选择“Add On New Line”：
+比如我们想把那些 text 换到下一行去，可以在 `(\` 上使用<kbd>Alt</kbd>+<kbd>Enter</kbd>，然后选择『Add On New Line』：
 
 ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/mps/3/15.png)
 

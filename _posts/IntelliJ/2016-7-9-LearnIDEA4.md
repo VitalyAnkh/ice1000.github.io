@@ -54,7 +54,7 @@ description: IDEA for beginners chapter 4
 
 ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/old/java/idea4/4.png)
 
-如果你只是想开启版本控制系统而不是上传到 GitHub ，请选择上面的“Enable Version Control Integration”。
+如果你只是想开启版本控制系统而不是上传到 GitHub ，请选择上面的『Enable Version Control Integration』。
 
 + 你可以便捷地进行版本控制操作。
 

@@ -22,7 +22,7 @@ description: make a game engine chapter 1
 呃又因为我最熟悉的语言都是 JVM 的，再加上之前使用[JustWeEngine](https://github.com/lfkdsk/JustWeEngine)开发[Android 原生游戏](https://github.com/icela/StudioVSEclipse)的经历，让我产生了自己搞一个游戏引擎的想法。首先 JVM 平台资源丰富，而且有 Write once, ~~debug~~ run everywhere 的优点，再加上 Java 程序员多，我决定使用自己深爱的 Kotlin 来做一个这样的 Game Engine。
 
 ## 说在前面
-那些想说“没代码说个 JB”的人，你们大可以去直接阅读我引擎的源码。前提是你要看得懂 Kotlin。
+那些想说『没代码说个 JB』的人，你们大可以去直接阅读我引擎的源码。前提是你要看得懂 Kotlin。
 我不想在这个系列里面放太多代码，因为这样会导致我的文章变得 Platform-dependent ，
 就不适合非 JVM 工作者阅读了。我是希望.Net 工作者、C++工作者、前端等各行各业的人士都能看懂我的这份自制引擎的博客。
 

@@ -22,7 +22,7 @@ description: Kotlin DSL 2 inline
 怎么优化呢？就是直接省掉调用行为，直接把方法的内容写到调用的地方。
 但是 Kotlin 中的 `inline` 有所不同是， `inline` 一般只修饰含有单个 block 参数的方法。
 别的方法也可以用 inline 修饰，语法上不会报错，但是如果你使用的 IDE 是 IntelliJ IDEA 
-，它会告诉你“nothing to inline”，并高亮提示。
+，它会告诉你『nothing to inline』，并高亮提示。
 
 然后这就是 `inline` 了。。你可以使用 `inline` 做这样的事情：
 

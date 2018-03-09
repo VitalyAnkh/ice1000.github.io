@@ -64,7 +64,7 @@ fun main(args: Array<String>) {
 
 0. 太大了。
 0. 白中黑不是很明显，应该是黑中白。
-0. 我这个代码是“四个像素中，绘制左上角那个”，所以会有这种东西：
+0. 我这个代码是『四个像素中，绘制左上角那个』，所以会有这种东西：
 
 ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/13/1.png)
 
@@ -264,7 +264,7 @@ fun main(args: Array<String>) {
            ---********--            
 ```
 
-是不是已经很有“滑稽”的范了？
+是不是已经很有『滑稽』的范了？
 
 我们再来进行 C\+\+的 Code Generation。
 

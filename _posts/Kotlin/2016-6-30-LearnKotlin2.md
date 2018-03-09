@@ -19,7 +19,7 @@ description: Learn kotlin 2 Hello World
 
 请参考我[另一篇博客](../../../../2016/6/26/LearnIDEA/)，下载安装 IntelliJ IDEA （我本来打算自己先做一个比较简单的 Kotlin IDE ，不过后来发现这个轮子好像很难制造。。QAQ ）。
 
-然后根据那篇博客的内容，创建一个新工程。只不过这次我们创建的新工程是一个 Kotlin 工程，所以要在创建工程的时候选择“Kotlin”。
+然后根据那篇博客的内容，创建一个新工程。只不过这次我们创建的新工程是一个 Kotlin 工程，所以要在创建工程的时候选择『Kotlin』。
 
 ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/old/java/kt1/1.png)
 ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/old/java/kt1/2.png)
@@ -63,7 +63,7 @@ fun main(args: Array<String>) {
 
 ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/old/java/kt1/7.png)
 
-赶紧祝贺自己吧，你已经写下了人生第一个程序。在编程界中，学习任何一门语言、任何一门技术，你的第一步必定是“Hello World”。
+赶紧祝贺自己吧，你已经写下了人生第一个程序。在编程界中，学习任何一门语言、任何一门技术，你的第一步必定是『Hello World』。
 这是编程界亘古不变的传统。你现在已经将这个伟大的入门仪式进行了一遍。
 
 万事开头难，恭喜你，你没有死在环境搭建和工程创建上，你已经成功了一半！

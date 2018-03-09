@@ -17,7 +17,7 @@ description: The way to learn kotlin
 
 我作为一个 JetBrains 的脑残粉，时常拜访 JetBrains 的官网，偶尔会在一些神秘的角落发现一些很有趣的东西。ლ(´ڡ`ლ)
 
-首页的“Language”选项卡下就有两个选项，我都有涉猎， MPS 是一个比较复杂的系统，以后的博客有一定概率会讲到。而 Kotlin 就是本文的主角了。
+首页的『Language』选项卡下就有两个选项，我都有涉猎， MPS 是一个比较复杂的系统，以后的博客有一定概率会讲到。而 Kotlin 就是本文的主角了。
 
 ## Kotlin 是什么
 
@@ -64,7 +64,7 @@ Kotlin 也是一门开源的语言，源代码可以在[JetBrains 对应的 GitH
 
 Kotlin 团队为用户考虑得非常周到，不仅仅出品了 IDEA 插件，还为 Eclipse 用户提供了对应的插件。不过平心而论， IDEA 插件的体验比 Eclipse 体验真的好太多了。
 
-独立编译器是为命令行爱好者提供的，不过其实冰封个人认为最良心的是免费的[web IDE]( http://try.kotlinlang.org)，他们称之为“try kotlin”。这个 web IDE 是开源的，也可以在 GitHub 上面找到。
+独立编译器是为命令行爱好者提供的，不过其实冰封个人认为最良心的是免费的[web IDE]( http://try.kotlinlang.org)，他们称之为『try kotlin』。这个 web IDE 是开源的，也可以在 GitHub 上面找到。
 
 而 JetBrains 出品的 IntelliJ IDEA 从 15 开始就原生支持 Kotlin。至于业界公认最强大的 IDE ， IntelliJ Renamer （误）提供的编程环境自然是有着非常好的体验。关于如何安装 IDEA 我已在另一篇博客中说明。
 
@@ -73,7 +73,7 @@ Kotlin 团队为用户考虑得非常周到，不仅仅出品了 IDEA 插件，�
 ## 为什么选择 Kotlin
 
 有很多语法糖啊。
-这让它的语法变得非常简洁，比起 Java 那一言不合就上千行的毛病， Kotlin 要好得多。如果你对 Kotlin 足够熟练，那么你可以将更多精力放在实现逻辑上，而不是具体的“写代码”上，从而提高你的工作效率。
+这让它的语法变得非常简洁，比起 Java 那一言不合就上千行的毛病， Kotlin 要好得多。如果你对 Kotlin 足够熟练，那么你可以将更多精力放在实现逻辑上，而不是具体的『写代码』上，从而提高你的工作效率。
 
 ## 如何让孩子爱上 Kotlin
 

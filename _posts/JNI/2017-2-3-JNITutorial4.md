@@ -131,7 +131,8 @@ JNIEXPORT auto JNICALL Java_jni_Main_discretization(
 }
 ```
 
-然后编译，像教程一里面那样运行。我觉得应该不会有啥问题，这个 native 返回的是 data 离散化的结果。为了避免被打脸（毕竟这东西我是准备发知乎的，上一篇文章就被知乎突然出现的“大神”给喷了，着实让我捏了一把汗），我又去写了个程序验证上面的代码的正确性。
+然后编译，像教程一里面那样运行。我觉得应该不会有啥问题，这个 native 返回的是 data 离散化的结果。
+为了避免被打脸（毕竟这东西我是准备发知乎的，上一篇文章就被知乎突然出现的『大神』给喷了，着实让我捏了一把汗），我又去写了个程序验证上面的代码的正确性。
 
 可以写一下测试代码，下面给出我自己测试用的代码：
 
@@ -263,7 +264,9 @@ JNIEXPORT auto JNICALL Java_jni_Main_discretization(
 
 ### 缺点：
 
-+ 别人猛然看见你的代码，可能会说：“卧槽什么破玩意，这变量哪里定义的，这啥时候又回收了”
+别人猛然看见你的代码，可能会说：
+
+> 卧槽什么破玩意，这变量哪里定义的，这啥时候又回收了
 
 不过我觉得那个缺点并不是问题。~~因为反正也没人看我的项目，就我一个人嗨，还好我有磷~~。况且熟悉 JNI 的人看见你的代码可以望文生义。
 
@@ -272,6 +275,6 @@ JNIEXPORT auto JNICALL Java_jni_Main_discretization(
 ## 你学到了什么
 
 + 数组离散化（喂这也算吗
-+ 使用一套宏来代替巨长的 SetIntArrayRegion GetArrayLength GetIntArrayElements
++ 使用一套宏来代替巨长的 `SetIntArrayRegion` `GetArrayLength` `GetIntArrayElements`
 + 如何自己吐槽自己（我真是够了
 

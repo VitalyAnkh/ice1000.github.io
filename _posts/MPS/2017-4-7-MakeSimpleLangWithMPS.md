@@ -8,7 +8,7 @@ description: make a simple language with MPS
 ---
 
 在上一篇教程中，我们已经体验了 MPS 创建语言的流程的一半。
-接下来，我们将进行 Code Generation ，把之前的“语言”生成的代码导出为 Java 代码，并运行它。
+接下来，我们将进行 Code Generation ，把之前的『语言』生成的代码导出为 Java 代码，并运行它。
 
 ## 准备工作
 
@@ -17,7 +17,7 @@ description: make a simple language with MPS
 
 ## 本文主要内容
 
-你在看上篇教程的时候肯定以为是分成上下的，结果没想到出了个“中”，你一定很绝望吧。
+你在看上篇教程的时候肯定以为是分成上下的，结果没想到出了个『中』，你一定很绝望吧。
 
 其实不是这样的，我只是想把最初的三个概念分开说而已， MPS 很简单的。
 
@@ -29,7 +29,7 @@ description: make a simple language with MPS
 
 打开你的 MPS ，进入上次创建的工程。
 
-打开左边的、昨天说的不会讲太多但是是今天的主菜的“Generator”，
+打开左边的、昨天说的不会讲太多但是是今天的主菜的『Generator』，
 并打开昨天我们自动生成的 map_PrintlnSet。
 
 ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/mps/2/0.png)
@@ -57,7 +57,7 @@ description: make a simple language with MPS
 
 ### Generator
 
-**MPS 通过你的在破界神编辑器里编辑的 AST ，生成目标代码并编译**。这也是为什么我之前说“java 文件不是源码而是目标文件”的原因。
+**MPS 通过你的在破界神编辑器里编辑的 AST ，生成目标代码并编译**。这也是为什么我之前说『java 文件不是源码而是目标文件』的原因。
 
 而这里的**Generator**，就是你**进行代码生成的模板**。可以理解吧？ MPS 按照这个模板来生成代码。
 熟悉具有宏特性语言（ i.e. Lisp 系列, Rust, Scala, etc.）的人应该可以很容易理解：
@@ -95,8 +95,8 @@ System.out.println("");
 
 概念|语法上|对应的语义上
 :---|:---:|---:
-表达式|没分号|有“返回值”
-语句|有分号|没有“返回值”，或者说返回 Unit
+表达式|没分号|有『返回值』
+语句|有分号|没有『返回值』，或者说返回 Unit
 
 然后我们这里是选中一个语句！对它使用<kbd>Alt</kbd>+<kbd>Enter</kbd>，选择**LOOP 开头 clause 结尾**的那个。
 
@@ -146,11 +146,11 @@ public class map_PrintlnSet {
 
 ```
 
-但是你似乎并没有看到类似“Run”、“Execute”之类的字样，对吧？因为我们需要让它成为一个**可执行**的 AST ，才能运行它。
+但是你似乎并没有看到类似『Run』、『Execute』之类的字样，对吧？因为我们需要让它成为一个**可执行**的 AST ，才能运行它。
 
 而不仅仅是需要有 main 函数。
 
-我们对左边 logical view 的 VerboseLang 那个地方进行<kbd>Alt</kbd>+<kbd>Enter</kbd>，找到上篇博客提到过的“Dependency”，再添加这个叫
+我们对左边 logical view 的 VerboseLang 那个地方进行<kbd>Alt</kbd>+<kbd>Enter</kbd>，找到上篇博客提到过的『Dependency』，再添加这个叫
 
 ``` jetbrains.mps.execution.util ```
 
@@ -200,15 +200,15 @@ MPS|有
 
 而原本写在美元符号+方括号一家亲里面的东西，就只是一个占位用的东西，多数情况下，多数内容都会被替换掉。
 
-回顾一下刚才那个 AST ，我们对一个“语句”加上了一个循环的 macro ，也就是所它会对所有的循环内容进行遍历，
+回顾一下刚才那个 AST ，我们对一个『语句』加上了一个循环的 macro ，也就是所它会对所有的循环内容进行遍历，
 然后对里面的内容分别进行填充，每个循环内容产生一份这个东西，然后对里面的 macro 带入这个循环内容进行处理。
 
-而我们对字符串加上的那个 macro ，就是将那个“循环内容”，也就是那个 Println ，把它的 content 填进去，原本的就没了。
+而我们对字符串加上的那个 macro ，就是将那个『循环内容』，也就是那个 Println ，把它的 content 填进去，原本的就没了。
 
-比如我们这个例子， MPS 对很多个“Println”进行循环，那所有的 Println 就会被遍历，每个 Println 对应一个这个语句，
+比如我们这个例子， MPS 对很多个『Println』进行循环，那所有的 Println 就会被遍历，每个 Println 对应一个这个语句，
 然后它们的 content 就会被依次填入字符串。
 
-也就有了你看到的“Generated Text”的样子。
+也就有了你看到的『Generated Text』的样子。
 
 ## 预告
 

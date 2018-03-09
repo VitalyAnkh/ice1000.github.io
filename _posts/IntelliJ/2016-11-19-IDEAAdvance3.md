@@ -10,7 +10,7 @@ description: IDEA advance chapter 3
 ## 依赖
 + 一个 JetBrains 系的 IDE
 
-这期我说说 IntelliJ IDEA 系的 IDE 中的“工程”这一概念。所谓工程到底是什么我觉得我应该不需要解释了，看我博客的人应该都知道吧（逃
+这期我说说 IntelliJ IDEA 系的 IDE 中的『工程』这一概念。所谓工程到底是什么我觉得我应该不需要解释了，看我博客的人应该都知道吧（逃
 
 ## 和 AS 的不同
 
@@ -32,7 +32,7 @@ AS 是 IJ 的 Android 魔改版，钦定了 Gradle 作为构建工具，因此�
 快捷键<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd>。记住它，它非常、非常常用。
 
 如图所示是一个什么都没有的文件树，这就是一个一无所有的 Project。
-（其实是“几乎”一无所有，因为有一个 LICENSE 文件和一个 dll ，和一个 gitignore。
+（其实是『几乎』一无所有，因为有一个 LICENSE 文件和一个 dll ，和一个 gitignore。
 这是一个还未进行导入的 Project ，下文将导入它）
 
 ![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/old/java/idea7/1.jpg)

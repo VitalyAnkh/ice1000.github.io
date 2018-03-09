@@ -24,11 +24,10 @@ layout: default
 		<li>
 			<article><h1>
 				<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h1>
-				<p class="date">{{ post.date | date: "%Y, %b %-d" }}
-					{% for cat in post.categories %}
-					<a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
-					{% endfor %}
-				</p>
+				<p class="date">Date :: {{ post.date | date: "%Y, %b %-d" }}</p>
+				{% for cat in post.categories %}
+				<a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
+				{% endfor %}
 			</article>
 		</li>
 		{% endfor %}
