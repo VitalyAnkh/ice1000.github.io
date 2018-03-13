@@ -24,6 +24,6 @@ echo ""
 echo "commit finished"
 
 git gc
-git push origin master
+git push https://ice1000@github.com/ice1000/ice1000.github.io.git master
 
 echo "hia hia I have finished"
