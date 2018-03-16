@@ -13,7 +13,7 @@ StackOverflow 是一个用实力让我知道国外程序员平均水平的网站
 由于最近需要学习之前不太了解的 Eclipse ，所以这两天上这个网站比较多，也回答了一些和 IntelliJ 平台相关的问题，
 于是就顺手整理一下不是那么水的 StackOverflow 回答。
 
-### IntelliJ Plugin Development: how to make class extend another class
+## IntelliJ Plugin Development: how to make class extend another class
 
 [Link](https://stackoverflow.com/a/48558519/7083401)
 
@@ -52,7 +52,7 @@ extendsList.add(referenceElement);
 
 It works but I guess there should be more optimal way.
 
-#### My answer
+### My answer
 
 You can make a `String` which is the code you want to generate, like
 
@@ -75,15 +75,15 @@ Then, `myClass.replace(fromText(code))`.
 
 BTW you can also do `classNamePsiElement.addAfter(fromText("extends Xxx"))` which is considered more efficient.
 
-### How to get the theme that the current user use in intellij?
+## How to get the theme that the current user use in intellij?
 
 [Link](https://stackoverflow.com/a/49233902/7083401)
 
-#### My answer
+### My answer
 
 You can also make use of `JBColor` which displays differently under different themes.
 
-### IntelliJ shortcut to auto complete parameters for overloaded methods?
+## IntelliJ shortcut to auto complete parameters for overloaded methods?
 
 [Link](https://stackoverflow.com/a/49143070/7083401)
 
@@ -101,14 +101,14 @@ void foo(int one, int two, int three, int four, int five) {
 
 And my cursor is where the `|` is at. Is there a shortcut to tell IntelliJ to autocomplete the parameters to pass into `foo(one, two, three, four, null)`?
 
-#### My answer
+### My answer
 
 ![image](https://user-images.githubusercontent.com/16398479/37070003-ba2dc920-21f0-11e8-9547-f86254cd7199.png)
 
 No special handling is needed, <kbd>Ctrl</kbd>+<kbd>Space</kbd> will give you the completion shown above.  
 All you have to do is to select your expected completion.
 
-### How to change CMake options from the Intellij platform plugin code?
+## How to change CMake options from the Intellij platform plugin code?
 
 [Link](https://stackoverflow.com/a/49229339/7083401)
 
@@ -116,7 +116,7 @@ I want to change some options passed to the CMake command through the plugin cod
 
 Is there any API to communicate with CLion specific functionality?
 
-#### My answer
+### My answer
 
 You said "CMake command", which is unclear. I guess you want to change the CMake location.
 
