@@ -10,7 +10,8 @@ description: StackOverflow non-water answers
 StackOverflow 是一个用实力让我知道国外程序员平均水平的网站。
 菜的能让你感觉是一个小孩子在上网，叼的又能让你觉得是在学术界叱咤风云的大学教授。
 
-这两天上这个网站比较多，于是就顺手整理一下不是那么水的 StackOverflow 回答。
+由于最近需要学习之前不太了解的 Eclipse ，所以这两天上这个网站比较多，也回答了一些和 IntelliJ 平台相关的问题，
+于是就顺手整理一下不是那么水的 StackOverflow 回答。
 
 ### IntelliJ Plugin Development: how to make class extend another class
 
