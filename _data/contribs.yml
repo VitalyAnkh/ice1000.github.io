@@ -45,10 +45,10 @@
   num: 1197
   content: Added the JetBrains Plugin version badge to the front page
 
-
-
-
-
-
-
+- repo: JetBrains/intellij-sdk-docs
+  repo_s: jetbrainsintellijsdkdocs
+  num: 75
+  content: >-
+    Created instructions for `SdkType`,
+    tell plugin developers how to create custom "SDK"
 
