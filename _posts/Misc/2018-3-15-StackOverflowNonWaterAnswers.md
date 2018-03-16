@@ -79,6 +79,10 @@ BTW you can also do `classNamePsiElement.addAfter(fromText("extends Xxx"))` whic
 
 [Link](https://stackoverflow.com/a/49233902/7083401)
 
+I develop the intellij plugin, but some backgroud color in Windows Theme and Darcula Theme show very different.
+
+How to get the intellij theme in plugin code?
+
 ### My answer
 
 You can also make use of `JBColor` which displays differently under different themes.
