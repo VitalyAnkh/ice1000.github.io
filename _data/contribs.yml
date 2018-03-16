@@ -46,7 +46,7 @@
   content: Added the JetBrains Plugin version badge to the front page
 
 - repo: JetBrains/intellij-sdk-docs
-  repo_s: jetbrainsintellijsdkdocs
+  repo_s: jetbrainsintellij-sdk-docs
   num: 75
   content: >-
     Created instructions for `SdkType`,
