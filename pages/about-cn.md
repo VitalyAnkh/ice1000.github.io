@@ -60,10 +60,6 @@ permalink: /about-cn/
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
 知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>。
 
-## 特别感谢
-
-+ [mzlogin](https://mzlogin.github.io)
-
 ## 友情链接
 
 {% for link in site.data.links %}

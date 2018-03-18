@@ -50,6 +50,9 @@ CovScript mostly features its powerful standard library, which has database, GUI
 
 ### Related Links
 
-+ [IntelliJ IDEA-based IDE](https://plugins.jetbrains.com/plugin/10326-covscript/) ，这是我送给老李的 2018 新年礼物
++ [IntelliJ IDEA-based IDE](https://plugins.jetbrains.com/plugin/10326-covscript/), my new year present for MikeCovLee in 2018
 + [Interpreter Source](https://github.com/covscript/covscript)
 + [Website](http://covscript.org)
++ [Documentation](../cov-docs/)
+
+

@@ -64,10 +64,6 @@ I am a student, programming for interest.
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
 Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Generic License</a>.
 
-## Special Thanks
-
-+ [mzlogin](https://mzlogin.github.io)
-
 ## Friends
 
 {% for link in site.data.links %}

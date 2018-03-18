@@ -52,5 +52,6 @@ CovScript 的类 C 语法让它能写起来很愉快，再加上对 lambda 的�
 + [基于 IntelliJ IDEA 的 IDE](https://plugins.jetbrains.com/plugin/10326-covscript/) ，这是我送给老李的 2018 新年礼物
 + [解释器源码](https://github.com/covscript/covscript)
 + [官网](http://covscript.org)
++ [文档](../cov-docs/)
 
 
