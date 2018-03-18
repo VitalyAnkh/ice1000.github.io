@@ -1,3 +1,12 @@
+---
+layout: page
+title: CovScript 文档
+description: covscript 文档
+keywords: covscript documentation
+menu: Languages
+permalink: /cov-docs/
+---
+
 # CovScript
 
 ![](https://github.com/covscript/covscript/raw/master/icon/covariant_script_wide.png)
