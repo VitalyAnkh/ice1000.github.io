@@ -121,8 +121,8 @@ Covariant Script 编程语言的数组是变长数组(VLA)，若下标超出范�
 @end
 ```
 
-在`@begin`和`@end`之间的代码将视为一行语句<br/>
-也就是说，`@begin`和`@end`之间的所有换行符都将会被忽略
+在 `@begin` 和 `@end` 之间的代码将视为一行语句<br/>
+也就是说， `@begin` 和 `@end` 之间的所有换行符都将会被忽略
 
 ### 引入 Package
 
@@ -1053,7 +1053,7 @@ cs_impl::any printall(std::deque<cs_impl::any>& args)
 
 cs::extension* cs_extension()
 {
-  my_ext.add_var(“printall”,cs_impl::any::make<cs::callable>(printall));
+  my_ext.add_var("printall",cs_impl::any::make<cs::callable>(printall));
   return &my_ext;
 }
 ```
@@ -1075,7 +1075,7 @@ void print(const cs_impl::any& val)
 
 cs::extension* cs_extension()
 {
-  my_ext.add_var(“print”,cs_impl::any::make<cs::callable>(cs::cni(print)));
+  my_ext.add_var("print", cs_impl::any::make<cs::callable>(cs::cni(print)));
   return &my_ext;
 }
 ```
@@ -1105,7 +1105,7 @@ Covariant Script 优化器支持优化函数调用,但此举的前提是函数�
 要请求优化,只需将 `Callable` 构造函数的第二个可选参数设置为 `true`,并将变量设置为保护即可,如:
 
 ```cpp
-my_ext.add_var(“test”,cs_impl::make_protect<cs::callable>(cs::cni(test),true));
+my_ext.add_var("test",cs_impl::make_protect<cs::callable>(cs::cni(test),true));
 ```
 
 注意,不要将变量设置为 `constant` 或 `single`,这将阻止 Covariant Script 调用这个函数。
@@ -1118,7 +1118,8 @@ CovScript 会自动加载内建类型扩展,无需手动加载。
 比较函数:
 
 ```cpp
-template<typename T>bool cs_impl::compare(const T &, const T &)
+template<typename T>
+bool cs_impl::compare(const T &, const T &)
 ```
 
 特化此函数以支持比较操作,默认情况下如未找到类型定义的 `operator==`或者特化的 `compare` 函数将直接比较变量的地址。
@@ -1126,7 +1127,8 @@ template<typename T>bool cs_impl::compare(const T &, const T &)
 整数转换函数:
 
 ```cpp
-template<typename T>long cs_impl::to_integer(const T &)
+template<typename T>
+long cs_impl::to_integer(const T &)
 ```
 
 特化此函数以支持向整数的转换。
@@ -1134,7 +1136,8 @@ template<typename T>long cs_impl::to_integer(const T &)
 字符串转换函数:
 
 ```cpp
-template<typename T>std::string cs_impl::to_string(const T &)
+template<typename T>
+std::string cs_impl::to_string(const T &)
 ```
 
 特化此函数以支持向字符串的转换。
@@ -1142,7 +1145,8 @@ template<typename T>std::string cs_impl::to_string(const T &)
 哈希函数:
 
 ```cpp
-template<typename T>std::size_t cs_impl::hash(const T &)
+template<typename T>
+std::size_t cs_impl::hash(const T &)
 ```
 
 特化此函数以支持生成哈希值。
@@ -1150,7 +1154,8 @@ template<typename T>std::size_t cs_impl::hash(const T &)
 GC 标记函数:
 
 ```cpp
-template<typename T>void cs_impl::detach(T &)
+template<typename T>
+void cs_impl::detach(T &)
 ```
 
 对于含有 `cs::var` 的容器,应特化此函数并分别调用每个 `cs::var` 实例的 `detach` 方法。
@@ -1166,7 +1171,8 @@ template<typename T>constexpr const char *cs_impl::get_name_of_type()
 类型方法扩展函数:
 
 ```cpp
-template<typename T>cs::extension_t &cs_impl::get_ext()
+template<typename T>
+cs::extension_t &cs_impl::get_ext()
 ```
 
 特化此函数并返回类型方法的扩展将为此类型引入点运算符成员访问功能的支持。
