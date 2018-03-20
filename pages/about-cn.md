@@ -10,19 +10,27 @@ permalink: /about-cn/
 
 [English](../about/)
 
-你好，欢迎来到我的博客「中间表示 (IR) 」，我是千里冰封。  
-我是一个学生，因兴趣而编程。
+欢迎来到我的博客「中间表示 (IR) 」。
 
-+ [泛向 QQ 群](http://shang.qq.com/wpa/qunwpa?idkey=b75f6d506820d00cd5e7fc78fc5e5487a3444a4a6af06e9e6fa72bccf3fa9d1a)
-+ [编译原理向 QQ 群]()
-+ [电子邮件](mailto:ice1000@kotliner.cn)
+我是一个因兴趣而编程的学生，喜欢研究程序语言的设计和实现。
+爱好蛇，动漫，足球和悠悠球。
+
+一般使用 "ice1000", "千里冰封" 或 "Tesla Ice Zhang" 作为我的 ID 。
+
 + [简历](../resume-cn/)
-+ [订阅](../subscribe-cn/)
-+ [RSS 订阅](../feed.xml)
-+ [GitHub 用户分析](https://github-profile-summary.com/user/ice1000)
-+ [**开源社区贡献**](../opensource-contributions/)
-+ [CodeWars](../codewars-cn/)
-+ [**StackOverflow 开发者故事**](http://stackoverflow.com/story/ice1000) ([保存为 pdf](https://stackoverflow.com/users/story/pdf/7083401?View=Pdf))
+
++ 联系我
+  + [QQ 群](http://shang.qq.com/wpa/qunwpa?idkey=b75f6d506820d00cd5e7fc78fc5e5487a3444a4a6af06e9e6fa72bccf3fa9d1a)
+  + [电子邮件](mailto:ice1000@kotliner.cn)
++ 订阅
+  + [其他方式](../subscribe-cn/)
+  + [RSS](../feed.xml)
++ 个人信息
+  + [GitHub 用户分析](https://github-profile-summary.com/user/ice1000)
+  + [**开源社区贡献**](../opensource-contributions/)
+  + [CodeWars](../codewars-cn/)
+  + [**StackOverflow 开发者故事**](http://stackoverflow.com/story/ice1000)
+    + [保存为 pdf](https://stackoverflow.com/users/story/pdf/7083401?View=Pdf)
 + [一些有趣的代码片段](../gists/)
 
 [![](http://stackexchange.com/users/flair/9532102.png)](http://stackoverflow.com/users/7083401/ice1000 "profile for ice1000 at Stack Overflow, Q&A for professional and enthusiast programmers")
@@ -52,11 +60,14 @@ permalink: /about-cn/
 
 ## 博客政策
 
+<!--
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/协议-知识共享署名--非商业性使用--禁止演绎%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
 <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
 </a>
-+ 所有这个网站的博客和文章都采用
+-->
+
+所有这个网站的博客和文章都采用
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
 知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>。
 
