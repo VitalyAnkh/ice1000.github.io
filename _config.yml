@@ -5,7 +5,7 @@ author: Tesla Ice Zhang >>= Akirina Wu
 description: >
   ice1000's blog
 baseurl: ""
-url: "http:/ice1000.org/"
+url: "http://ice1000.org"
 keywords: ice1000, Akirina, blog
 favicon: /favicon.ico
 twitter: ice1000kotlin

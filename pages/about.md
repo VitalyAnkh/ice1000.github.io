@@ -10,19 +10,30 @@ permalink: /about/
 
 [简体中文](../about-cn/)
 
-Hi there, welcome to my blog *intermediate representation* (IR).  
-This is ice1000 (千里冰封).  
-I am a student, programming for interest.
+# About
 
-+ [E-mail](mailto:ice1000@kotliner.cn)
+Welcome to my blog *intermediate representation* (IR).
+
+I am a student, programming for interest,
+Interested in programming language designs and implementations,
+love snakes, anime, football and yoyo.
+
+Usually use "ice1000", "千里冰封" or "Tesla Ice Zhang" as my ID.
+
 + [Resume](../resume)
-+ [Subscribe](../subscribe)
-+ [Subscribe with RSS](../feed.xml)
-+ [GitHub profile analysis](https://github-profile-summary.com/user/ice1000)
-+ [**Opensource Contributions**](../opensource-contributions/)
-+ [CodeWars](../codewars/)
-+ [**StackOverflow developer story**](http://stackoverflow.com/story/ice1000) ([save as PDF](https://stackoverflow.com/users/story/pdf/7083401?View=Pdf))
-+ [Some interesting pieces of code](../gists/)
+
++ Contact
+  + [E-mail](mailto:ice1000@kotliner.cn)
++ Subscribe
+  + [RSS](../feed.xml)
+  + [Other subscriptions](../subscribe)
++ Personal information
+  + [GitHub profile analysis](https://github-profile-summary.com/user/ice1000)
+  + [**Opensource Contributions**](../opensource-contributions/)
+  + [CodeWars](../codewars/)
+  + [**StackOverflow developer story**](http://stackoverflow.com/story/ice1000)
+    + [save as PDF](https://stackoverflow.com/users/story/pdf/7083401?View=Pdf)
++ [Some interesting code snippets](../gists/)
 
 [![](http://stackexchange.com/users/flair/9532102.png)](http://stackoverflow.com/users/7083401/ice1000 "profile for ice1000 at Stack Overflow, Q&A for professional and enthusiast programmers")
 
@@ -56,17 +67,17 @@ I am a student, programming for interest.
 
 ## Blog Policy
 
+<!--
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
 <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
 </a>
-+ All the posts and blogs here are licensed under a 
+-->
+
+
+All the posts and blogs here are licensed under a 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
 Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Generic License</a>.
-
-## Special Thanks
-
-+ [mzlogin](https://mzlogin.github.io)
 
 ## Friends
 
