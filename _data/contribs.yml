@@ -52,3 +52,23 @@
     Created instructions for `SdkType`,
     tell plugin developers how to create custom "SDK"
 
+- repo: JetBrains/intellij-sdk-docs
+  repo_s: jetbrainsintellij-sdk-docs
+  num: 87
+  content: >-
+    Improve SDK descriptions, <br/>
+    add Gradle Kotlin DSL introductions, <br/>
+    migrate some <code>https://</code>-based links to <code>upsource:///</code>
+
+- repo: intellij-solidity/intellij-solidity
+  repo_s: intellij-solidityintellij-solidity
+  num: 69
+  ref: >-
+    A related issue [![GitHub issue state](https://img.shields.io/github/issues/detail/s/intellij-solidity/intellij-solidity/68.svg)](https://github.com/intellij-solidity/intellij-solidity/issues/68)
+
+  content: >-
+    Fixed compilation errors under IDEA 2018.1, <br/>
+    migrate toolchain versions, <br/>
+    support \"constructor\" syntax, <br/>
+    added corresponding parser unit test
+
