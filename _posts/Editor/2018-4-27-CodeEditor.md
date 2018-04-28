@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 代码编辑器系列 &num;0 编辑器的定位
+title: 代码编辑器系列 &num;0 两种编辑器
 category: Editor
 tags: Kotlin
 keywords: Kotlin, Text Editor
