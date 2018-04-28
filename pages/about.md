@@ -15,8 +15,8 @@ permalink: /about/
 Welcome to my blog *intermediate representation* (IR).
 
 I am a student, programming for interest,
-Interested in programming language designs and implementations,
-love snakes, anime, football and yoyo.
+Interested in code editor / programming language designs and implementations,
+loves snakes, anime, football and yoyo.
 
 Usually use "ice1000", "千里冰封" or "Tesla Ice Zhang" as my ID.
 
