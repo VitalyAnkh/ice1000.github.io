@@ -37,7 +37,7 @@ Lice 现在的存在目的是作为一个依附于 JVM 语言的脚本语言，�
 
 一个关于 Lice 的视频：
 
-<iframe src="//player.bilibili.com/player.html?aid=18335710&cid=29931062&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=18335710&cid=29931062&page=1" scrolling="yes" border="0" frameborder="yes" framespacing="0" allowfullscreen="true">
 </iframe>
 
 # CovScript
