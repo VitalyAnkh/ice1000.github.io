@@ -35,6 +35,11 @@ Lice 现在的存在目的是作为一个依附于 JVM 语言的脚本语言，�
 
 伴随最初版本一起出现的 AST 编辑器、导出格式化代码的工具等都已经随着我数次迁移工作环境丢失了。
 
+一个关于 Lice 的视频：
+
+<iframe src="//player.bilibili.com/player.html?aid=18335710&cid=29931062&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+
 # CovScript
 
 这是我的朋友李登淳创造的一门编程语言，用 C++ 实现，具体介绍在官网还是比较详细的，我在这里就只写点我自己的看法吧。  
