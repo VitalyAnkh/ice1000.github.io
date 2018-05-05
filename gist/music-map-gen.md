@@ -108,11 +108,7 @@ class MusicGame : Game(3) {
 
 	override fun onRefresh() {
 		if (seconds.ended() && count >= 0) println("${count--}")
-		collisionEvents.removeIf { (obj, event) ->
-			if (obj.died) return@removeIf true
-			if (obj.collides(wall)) event.run()
-			false
-		}
+		collisionEvents.removeIf { (obj, event) -> obj.died.also { if (!it && obj.collides(wall)) event.run() } }
 	}
 }
 ```

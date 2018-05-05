@@ -49,6 +49,8 @@ title: 我的 Emacs 配置
  '(column-number-mode t)
  '(custom-enabled-themes nil)
  '(display-time-mode t)
+ '(flycheck-hlint-args nil)
+ '(flycheck-hlint-ignore-rules nil)
  '(flyspell-abbrev-p t)
  '(flyspell-after-incorrect-word-string nil)
  '(font-use-system-font t)
@@ -63,7 +65,7 @@ title: 我的 Emacs 配置
  '(nyan-mode nil)
  '(package-selected-packages
 	 (quote
-		(easy-jekyll figlet hlinum gh-md w3m mwe-log-commands nyan-mode neotree git-commit electric-operator chinese-word-at-point indent-info mines paredit-everywhere paredit flycheck-kotlin flycheck-julia flycheck-haskell flycheck-color-mode-line flycheck-clang-tidy flycheck-clang-analyzer flycheck-ocaml flycheck-rust zone-sl latex-extra auctex yaml-mode zone-rainbow zone-nyan scala-mode sbt-mode rust-mode ruby-test-mode mode-icons markdown-preview-mode markdown-mode+ llvm-mode kotlin-mode jekyll-modes j-mode indent-guide idris-mode ibuffer-git haskell-mode groovy-mode go-mode elm-mode dart-mode d-mode csharp-mode bing-dict ace-flyspell ac-c-headers)))
+		(cmake-mode github-stars brainfuck-mode easy-jekyll figlet hlinum gh-md w3m mwe-log-commands nyan-mode neotree git-commit electric-operator chinese-word-at-point indent-info mines paredit-everywhere paredit flycheck-kotlin flycheck-julia flycheck-haskell flycheck-color-mode-line flycheck-clang-tidy flycheck-clang-analyzer flycheck-ocaml flycheck-rust zone-sl latex-extra auctex yaml-mode zone-rainbow zone-nyan scala-mode sbt-mode rust-mode ruby-test-mode mode-icons markdown-preview-mode markdown-mode+ llvm-mode kotlin-mode jekyll-modes j-mode indent-guide idris-mode ibuffer-git haskell-mode groovy-mode go-mode elm-mode dart-mode d-mode csharp-mode bing-dict ace-flyspell ac-c-headers)))
  '(paredit-mode t)
  '(show-paren-mode t)
  '(size-indication-mode t)
@@ -78,7 +80,7 @@ title: 我的 Emacs 配置
 (setq gitter-token "")
 
 (require 'zone)
-(setq zone-programs [ zone-nyan ])
+;; (setq zone-programs [ zone-nyan ])
 (zone-when-idle 120)
 (defun zone-choose (pgm)
   "Choose a PGM to run for `zone'."
@@ -135,6 +137,7 @@ title: 我的 Emacs 配置
 
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
+(global-unset-key (kbd "C-z"))
 
 (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
 
@@ -145,6 +148,6 @@ title: 我的 Emacs 配置
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Inziu Iosevka Slab SC" :foundry "CYEL" :slant normal :weight normal :height 158 :width normal))))
+ '(default ((t (:family "Sarasa Mono SC" :foundry "CYEL" :slant normal :weight normal :height 158 :width normal))))
  '(agda2-highlight-operator-face ((t (:inherit font-lock-variable-name-face)))))
 ```
