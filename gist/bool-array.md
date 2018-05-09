@@ -1,7 +1,4 @@
----
-layout: gist
-title: 位运算压缩的 Boolean 数组
----
+# 位运算压缩的 Boolean 数组
 
 + [来源](https://github.com/icela/FriceEngine/blob/master/src/org/frice/utils/misc/BoolArray.kt)
 

@@ -1,7 +1,4 @@
----
-layout: gist
-title: Functional DFS
----
+# Functional DFS
 
 ```haskell
 module EscapeTheMines where

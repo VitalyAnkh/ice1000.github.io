@@ -1,7 +1,4 @@
----
-layout: gist
-title: 证明 A + B = B + A
----
+# 证明 A + B = B + A
 
 ```agda
 module A+B where

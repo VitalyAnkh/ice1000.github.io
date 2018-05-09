@@ -1,7 +1,4 @@
----
-layout: gist
-title: 我的 Emacs 配置
----
+# 我的 Emacs 配置
 
 ```elisp
 ;;; package --- .emacs

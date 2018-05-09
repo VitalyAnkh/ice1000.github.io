@@ -1,7 +1,4 @@
----
-layout: gist
-title: 使用 EEbnfParser 编写 Lisp 解释器
----
+# 使用 EEbnfParser 编写 Lisp 解释器
 
 + [来源](https://zhuanlan.zhihu.com/p/29970283)
 

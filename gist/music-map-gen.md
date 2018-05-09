@@ -1,7 +1,4 @@
----
-layout: gist
-title: 音游生成器
----
+# 音游生成器
 
 [Project URL](https://github.com/ice1000/MusicGameGen)
 

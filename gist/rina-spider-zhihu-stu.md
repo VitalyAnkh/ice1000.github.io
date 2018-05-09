@@ -1,15 +1,4 @@
----
-layout: post
-title: Arkirina's Code Archive
-category: Arkirina
-tags: code, misc
-keywords: code
-description: Code Archive
----
-
-## Google Code-in 2018 Archive
-
-其实只是个抓所有学生的简单爬虫啦
+# 其实只是个抓所有学生的简单爬虫啦
 
 ```javascript
 let cio = require('cheerio'),

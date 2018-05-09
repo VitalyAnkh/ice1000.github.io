@@ -7,18 +7,7 @@ menu: Gist
 permalink: /gists/
 ---
 
-{% assign gists = "emacs
-fp-dfs
-func-compose
-posgen-gradle
-music-map-gen
-eebnf-lisp
-lice-haskell-impl
-a-plus-b
-rev-rev-id
-bool-array" | split: "
-" %}
+{% assign gists = site.static_files | where: "gist", true %}
 {% for gist in gists %}
-0. [{{ gist }}](../gist/{{ gist }}/)
-
+0. [{{ gist.basename }}](../gist/{{ gist.basename }}/)
 {% endfor %}

@@ -1,7 +1,4 @@
----
-layout: gist
-title: Kotlin Function Composition
----
+# Kotlin Function Composition
 
 ```kotlin
 operator fun <A, B, C> ((B) -> A).plus(p: (C) -> B) = { it: C -> this(p(it)) }

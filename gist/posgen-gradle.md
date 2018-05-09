@@ -1,7 +1,4 @@
----
-layout: gist
-title: 我写过的最复杂的 build.gradle
----
+# 我 2017 写过的最复杂的 build.gradle
 
 ```groovy
 group 'org.ice1000'

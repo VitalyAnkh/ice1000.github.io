@@ -1,7 +1,4 @@
----
-layout: gist
-title: 证明 reverse . reverse = id
----
+# 证明 reverse . reverse = id
 
 ```agda
 module RevRev where
