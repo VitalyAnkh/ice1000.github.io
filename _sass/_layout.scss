@@ -132,14 +132,17 @@ p a:visited:active {
 }
 
 pre {
-	word-wrap: break-word; 
+	word-wrap: break-word;
 	white-space: pre-wrap;
+	padding: 4px;
+	background-color: #eff0f1;
 }
 
 code {
 	color: #000;
 	font-family: monospace;
 	font-size: .85em;
+	background-color: #eff0f1;
 }
 
 aside {
