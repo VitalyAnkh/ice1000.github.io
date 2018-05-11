@@ -10,7 +10,7 @@
 .nt { color: rgb(159, 99, 16); } /* Xml tag */
 .m { color: rgb(104,151,187); } /* Literal.Number */
 .mi { color: rgb(104,151,187); } /* Literal.Int */
-.s { color: rgb(73, 180, 69); } /* Literal.String */
+.s { color: rgb(106, 135, 89); } /* Literal.String */
 .cm { color: rgb(128,128,128); font-style: italic } /* Comment.Multiline */
 .cp { color: rgb(98,151,85); } /* Comment.Preproc */
 .cs { color: rgb(98,151,85); font-style: italic } /* Comment.Special */

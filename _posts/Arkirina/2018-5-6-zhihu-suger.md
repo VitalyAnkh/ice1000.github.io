@@ -26,27 +26,23 @@ package com.zhihu.android.sdk.launchad.utils;
 
 /* HIDDEN import */
 
-public class XSugerUtils
-{
+public class XSugerUtils {
   private static long coordTimeStamp;
   private static double mCoordLat;
   private static double mCoordLng;
   private static String mDeviceId;
   private static String mMacId;
   
-  private static String getDeviceId(Context paramContext)
-  {
+  private static String getDeviceId(Context paramContext) {
     // ...
   }
   
-  public static String getValue()
-  {
+  public static String getValue() {
     StringBuilder localStringBuilder = new StringBuilder();
     setBuffer(localStringBuilder, "IMEI", mDeviceId);
     setBuffer(localStringBuilder, "ANDROID_ID", LaunchAdApiInfo.AndroidId());
     setBuffer(localStringBuilder, "MAC", mMacId);
-    if ((mCoordLat != 0.0D) || (mCoordLng != 0.0D))
-    {
+    if ((mCoordLat != 0.0D) || (mCoordLng != 0.0D)) {
       setBuffer(localStringBuilder, "COORD_LAT", Double.valueOf(mCoordLat));
       setBuffer(localStringBuilder, "COORD_LNG", Double.valueOf(mCoordLng));
       setBuffer(localStringBuilder, "COORD_TIMESTAMP", Long.valueOf(coordTimeStamp));
@@ -54,13 +50,11 @@ public class XSugerUtils
     return Base64.encodeBase64String(localStringBuilder.toString().getBytes());
   }
   
-  private static void setBuffer(StringBuilder paramStringBuilder, String paramString, Object paramObject)
-  {
+  private static void setBuffer(StringBuilder paramStringBuilder, String paramString, Object paramObject) {
     // ...
   }
   
-  public static void setValue(Context paramContext, double paramDouble1, double paramDouble2)
-  {
+  public static void setValue(Context paramContext, double paramDouble1, double paramDouble2) {
     // ...
   }
 }
