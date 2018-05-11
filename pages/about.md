@@ -18,7 +18,7 @@ I am a student, programming for interest,
 Interested in code editor / programming language designs and implementations,
 loves snakes, anime, football and yoyo.
 
-Usually use "ice1000", "千里冰封" or "Tesla Ice Zhang" as my ID.
+Usually use *ice1000*, *千里冰封* or *Tesla Ice Zhang* as my ID.
 
 + [Resume](../resume)
 

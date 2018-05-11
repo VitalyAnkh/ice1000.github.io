@@ -10,24 +10,23 @@ layout: default
 	  如果你对知识进行了彻底的分析而非某种机械的套弄，在你脑中生成的概念与生硬的文字之间已经没有很强的相似性，我们就认为这个概念是被理解的。彻底的分析和非凡的变换，是获得真知的标志性特征。
 	  <br/><br/>
 	</span>
-	<ul>{% for post in site.posts limit:1 %}
-		<li>
-			<article><h1>
-				<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
-			</h1>
-				<p class="date">{{ post.date | date: "%Y/%m/%d" }}</p>
-				<div class="content"><p>{{ post.content | strip_html | truncate: 280 }}</p></div>
-			</article>
-		</li>
-		{% endfor %}
+	<ul>
 		{% for post in paginator.posts %}
 		<li>
 			<article><h1>
-				<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+					<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h1>
 				<p class="date">Date :: {{ post.date | date: "%Y, %b %-d" }}</p>
 				{% for cat in post.categories %}
 				<a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
 				{% endfor %}
+				{% for keyword in post.keywords %}
+				<span style="font-size: medium; ">
+					{{ keyword }}
+				</span>
+				{% endfor %}
+				<div style="font-size: medium; text-indent: 10px;"  class="content">
+					{{ post.content | strip_html | truncate: 100 }}
+				</div>
 			</article>
 		</li>
 		{% endfor %}
@@ -51,10 +50,10 @@ layout: default
 			<a href="/" class="btn btn-outline">[]</a>
 			{% endif %}
 			{% for count in (2..paginator.total_pages) %}
-			&nbsp; &#8759;ʳ &nbsp; {% if count == paginator.page %}
-			<a href="javascript:" class="active btn btn-outline"> {{count}}</a>
+			&#8759;ʳ {% if count == paginator.page %}
+			<a href="javascript:" style="padding: 8px; border-radius: 5px; background: #00bcd46e;" class="active btn btn-outline"> {{count}}</a>
 			{% else %}
-			<a href="/page{{count}}" class="btn btn-outline"> {{count}}</a>
+			<a href="/page{{count}}" style="padding: 8px; border-radius: 5px; background: #00bcd46e;" class="btn btn-outline"> {{count}}</a>
 			{% endif %}
 			{% endfor %}
 			&nbsp;
