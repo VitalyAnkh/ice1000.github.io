@@ -205,4 +205,11 @@ Constant pool:
 
 关于 Kotlin 的这个问题我已经在 YouTrack 上开 [issue](https://youtrack.jetbrains.com/issue/KT-24392) 了，大家可以去围观或者 upvote（逃
 
+这个写法可以扩展到这些情况：
+
++ `String @Nullable [] @Nullable []`
++ `String @Nullable ...`
+
+都是合法的 Java 代码哦。
+
 其实最靠谱的参考还是 [Java 标准](https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.7.4)里对这个 case 的说明啦。
