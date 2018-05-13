@@ -155,7 +155,7 @@ RuntimeInvisibleParameterAnnotations:
 呃。。。好吧，首先很明显第二个 `@Nullable` 同时生效于类型和参数本身了，而第一个只在类型上生效了。
 不过我还是不知道他们各自在类型上生效时的字节码的意思（看不懂字节码真是对不起呢），于是就使用控制变量法，再写两个函数对比一下（之所以使用两个不同的 `List` 实现，是因为 `List` 和数组不一样，擦除了就一样了所以 JVM 签名就冲突叻）：
 
-```
+```java
 import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
