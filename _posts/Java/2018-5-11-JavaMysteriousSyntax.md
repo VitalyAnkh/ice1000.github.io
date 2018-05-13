@@ -135,14 +135,14 @@ Constant pool:
 ```
 
 然后在两个测试函数中，可以看到 `#16` 注解在不同的地方生效了。
-首先是 `String @Nullable args` 的第一个函数：
+首先是 `String @Nullable [] args` 的第一个函数：
 
 ```
 RuntimeInvisibleTypeAnnotations:
   0: #16(): METHOD_FORMAL_PARAMETER, param_index=0
 ```
 
-然后是 `@Nullable Number args` 的第二个函数：
+然后是 `@Nullable Number [] args` 的第二个函数：
 
 ```
 RuntimeInvisibleTypeAnnotations:
