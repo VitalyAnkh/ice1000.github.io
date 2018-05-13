@@ -205,6 +205,8 @@ Constant pool:
 
 关于 Kotlin 的这个问题我已经在 YouTrack 上开 [issue](https://youtrack.jetbrains.com/issue/KT-24392) 了，大家可以去围观或者 upvote（逃
 
+![](https://coding.net/u/ice1000/p/Images/git/raw/master/blog-img/rubbish-kotlin.jpg)
+
 这个写法可以扩展到这些情况：
 
 + `String @Nullable [] @Nullable []`
