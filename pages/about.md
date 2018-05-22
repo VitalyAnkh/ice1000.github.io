@@ -29,11 +29,11 @@ Usually use *ice1000*, *千里冰封* or *Tesla Ice Zhang* as my ID.
   + [Other subscriptions](../subscribe)
 + Personal information
   + [GitHub profile analysis](https://github-profile-summary.com/user/ice1000)
-  + [**Opensource Contributions**](../opensource-contributions/)
   + [CodeWars](../codewars/)
   + [**StackOverflow developer story**](http://stackoverflow.com/story/ice1000)
     + [save as PDF](https://stackoverflow.com/users/story/pdf/7083401?View=Pdf)
 + [Some interesting code snippets](../gists/)
++ [**My Opensource Contributions**](../opensource-contributions/)
 
 [![](http://stackexchange.com/users/flair/9532102.png)](http://stackoverflow.com/users/7083401/ice1000 "profile for ice1000 at Stack Overflow, Q&A for professional and enthusiast programmers")
 

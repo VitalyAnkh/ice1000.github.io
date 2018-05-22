@@ -45,6 +45,8 @@ permalink: /opensource-contributions/
 {% for con in site.data.contribs %}
 ## {{ con.repo }}\#{{ con.num }}
 
+[pull request](https://github.com/{{ con.repo }}/pull/{{ con.num }}/)
+
 {% if con.ref == nil %}
 {% else %}
 + Reference  

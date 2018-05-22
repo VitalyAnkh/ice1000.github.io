@@ -72,3 +72,11 @@
     support \"constructor\" syntax, <br/>
     added corresponding parser unit test
 
+- repo: ocornut/imgui
+  repo_s: ocornutimgui
+  num: 1827
+  ref: >-
+    [imgui Java binding](https://github.com/ice1000/jimgui)
+
+  content: >-
+    Make subsequent window creation possible
