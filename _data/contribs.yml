@@ -86,4 +86,4 @@
   num: 363
   content: >-
     Fix IntelliJ IDEA plugin compatibility, <br/>
-		Add brace matcher and highlightings for keywords
+    Add brace matcher and highlightings for keywords
