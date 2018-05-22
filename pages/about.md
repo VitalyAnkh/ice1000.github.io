@@ -22,6 +22,8 @@ Usually use *ice1000*, *千里冰封* or *Tesla Ice Zhang* as my ID.
 
 + [Resume](../resume)
 
++ [**My Opensource Contributions**](../opensource-contributions/)
+
 + Contact
   + [E-mail](mailto:ice1000@kotliner.cn)
 + Subscribe
@@ -33,7 +35,6 @@ Usually use *ice1000*, *千里冰封* or *Tesla Ice Zhang* as my ID.
   + [**StackOverflow developer story**](http://stackoverflow.com/story/ice1000)
     + [save as PDF](https://stackoverflow.com/users/story/pdf/7083401?View=Pdf)
 + [Some interesting code snippets](../gists/)
-+ [**My Opensource Contributions**](../opensource-contributions/)
 
 [![](http://stackexchange.com/users/flair/9532102.png)](http://stackoverflow.com/users/7083401/ice1000 "profile for ice1000 at Stack Overflow, Q&A for professional and enthusiast programmers")
 

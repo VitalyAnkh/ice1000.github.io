@@ -80,3 +80,10 @@
 
   content: >-
     Make subsequent window creation possible
+
+- repo: dropbox/djinni
+  repo_s: dropboxdjinni
+  num: 363
+  content: >-
+    Fix IntelliJ IDEA plugin compatibility, <br/>
+		Add brace matcher and highlightings for keywords

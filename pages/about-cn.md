@@ -19,6 +19,8 @@ permalink: /about-cn/
 
 + [简历](../resume-cn/)
 
++ [**我的开源社区贡献**](../opensource-contributions/)
+
 + 联系我
   + [QQ 群](http://shang.qq.com/wpa/qunwpa?idkey=b75f6d506820d00cd5e7fc78fc5e5487a3444a4a6af06e9e6fa72bccf3fa9d1a)
   + [电子邮件](mailto:ice1000@kotliner.cn)
@@ -31,7 +33,6 @@ permalink: /about-cn/
   + [**StackOverflow 开发者故事**](http://stackoverflow.com/story/ice1000)
     + [保存为 pdf](https://stackoverflow.com/users/story/pdf/7083401?View=Pdf)
 + [一些有趣的代码片段](../gists/)
-+ [**我的开源社区贡献**](../opensource-contributions/)
 
 [![](http://stackexchange.com/users/flair/9532102.png)](http://stackoverflow.com/users/7083401/ice1000 "profile for ice1000 at Stack Overflow, Q&A for professional and enthusiast programmers")
 
