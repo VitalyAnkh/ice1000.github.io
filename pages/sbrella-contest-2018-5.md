@@ -8,25 +8,27 @@ permalink: /sbrella-contest/2018/05/
 
 请大家善待出题人，本次的题目比谷歌面试硬核，比今日头条面试简单。
 
-『Parser 题』和『复杂的题』是不会算法的人也能做的。
+<!-- 『Parser 题』和『复杂的题』 -->
 
-## 简单的算法题
+这次的题是不会算法的人也能做的。
 
-+ [动态规划题][1]
+<!-- ## 简单的算法题 -->
 
-## 简单的数据结构题
+<!-- + [动态规划题][1] -->
 
-+ [二维线段树题][2]
+<!-- ## 简单的数据结构题 -->
+
+<!-- + [二维线段树题][2] -->
 
 ## 简单的 Parser 题
 
-+ [正则表达式 Parser][5]
+<!-- + [正则表达式 Parser][5] -->
 + [化学分子式 Parser][6]
 
 ## 复杂的题
 
-+ [Java/Scala/Kotlin/Groovy 题][3]
-+ [JavaScript 题][4]
++ [Java 基础知识题][3]
+<!-- + [JavaScript 题][4] -->
 
   [1]: https://www.codewars.com/kata/longest-common-subsequence-performance-version
   [2]: https://www.codewars.com/kata/total-area-covered-by-rectangles
