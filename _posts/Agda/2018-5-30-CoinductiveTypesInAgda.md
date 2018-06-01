@@ -8,8 +8,8 @@ description: Proof in Agda, from 4 to 5
 inline_latex: true
 ---
 
-最近和 [@16](https://github.com/hexadecimaaal) 聊了一些关于 Coq 的话题，16 提到了 Coq 中的 coinductive
-数据类型不能进行形如 `a = b -> P a = P b where a, b are of coinductive data type` 的推导。<br/>
+最近和 [@16](https://github.com/hexadecimaaal) 聊了一些关于 Coq 的话题，16 给我讲了很多 Coq 对 coinductive
+数据类型的处理方式，让我一脸懵逼。<!--  `a = b -> P a = P b where a, b are of coinductive data type` 的推导。 --><br/>
 由于 Agda 中（似乎？）没有像 Coq 那样区分 coinductive 和 inductive（而是作为几个 `postulate`，下面会说），所以我从来还没想过这些问题。
 然后就研究了一下，感觉是之前不会的东西，就写篇博客聊聊。
 
