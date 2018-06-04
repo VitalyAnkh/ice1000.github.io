@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何取消一个 C/C++ 的符号的定义
-category: C++, C
+category: CXX
 tags: Essay, C++, C
 keywords: C++
 description: Undefine a C++ symbol
