@@ -15,7 +15,7 @@ C++ 是一个玄妙得令人抓狂的语言，我今天遇到了一个需要取�
 typedef unsigned int size_t;
 ```
 
-然后我们有这样的代码（实际上是 [musl](https://www.musl-libc.org/) 里的 `new`，这里简化了情况）:
+然后我们有这样的代码（实际上是 `new` 里的，这里简化了情况）:
 
 ```cpp
 #include <notstddef.h>
