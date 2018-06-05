@@ -4,7 +4,7 @@ title: 代码编辑器系列 &num;2 文本的存储 远古篇
 category: Editor
 tags: Kotlin
 keywords: Kotlin, Code Editor
-description: Text Editor series &num;1 architecture and decoupling
+description: Text Editor series &num;2 how are text stored and managed
 ---
 
 在[上一篇文章](../../../4/29/CodeEditor2/)中我介绍了提到了两种代码编辑器—— LSP 式和 JB 式的区别，并表明以后的文章会是关于 JB 式的编辑器的。
@@ -75,9 +75,10 @@ Hello,<cursor>[ ] world!
 有个我觉得很可取的做法，来自 Hemlock 编辑器（[论文](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2861&context=compsci)， 1989 的）。
 
 它把文本按行分成一个链表，光标所在的那一行是 gap buffer ，其他行是直接存的字符串。
-它很明显可以有效缓解巨大的、每行其实不怎么长的文本的编辑时的内存和时间开销。
+它很明显可以有效缓解巨大的、每行其实不怎么长的文本的编辑时的内存和时间开销，
+但单行大文件依然无解，不过这是个比较少见的情况，因此它还是能解决一些问题的。
 
-顺带一提，这个 30 年前的文本编辑器有一股挺浓的 Emacs 的味道。。。
+顺带一提，这个 30 年前的文本编辑器有一股挺浓的 Emacs 的味道，不知道是谁先来的，反正已经变成这样了。
 
 ## Vim
 
