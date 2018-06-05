@@ -32,7 +32,7 @@ auto operator new(std::size_t __sz) -> void * {
 ```cpp
 #define size_t __size_t__place__holder__
 #include <notstddef.h>
-#undef __size_t__place__holder__
+#undef size_t
 
 typedef unsigned long size_t
 
@@ -41,13 +41,6 @@ auto operator new(std::size_t __sz) -> void * {
 }
 ```
 
-根据需求，你也可以不取消定义 `__size_t__place__holder__`，然后利用它的值做一些事情。
+根据需求，你可以利用 `__size_t__place__holder__` 的值做一些事情。
 
 看起来很强的样子，至少我这个 C++ 苦手是不知道这种操作的。
-
-然后就可以有很多玩法了，比如一个会暂停下来的程序，可以直接这样写：
-
-```c
-#define getchar main
-#include <stdio.h>
-```
