@@ -31,7 +31,7 @@ Emacs 使用的数据结构相当简单，叫做『[gap buffer](https://en.wikip
 ### 简易实现
 
 举个例子，比如我们有这么一个字符串 `Hi, world!`，然后光标在 `,` 前面，用 IntelliJ 的测试框架的数据集表示方法的话就是 `Hi<cursor>, world!`。<br/>
-gap buffer 会先创建一个这样的数组（假定 gap 的长度是 4，`\xx` 表示 ASCII 码为 16 进制数 `xx` 的字符）：
+gap buffer 会先创建一个这样的数组（假定 gap 的长度是 4 且只有一个（事实上可能有不少这种 gap），`\xx` 表示 ASCII 码为 16 进制数 `xx` 的字符）：
 
 ```
 [0] [1] [2] [3] [4] [5] [6] [7] [8] [9] [a] [b] [c] [d]
@@ -89,7 +89,7 @@ Vim 使用的数据结构相对 Emacs 要复杂一些，但是对于 OI/ACM 选�
 [论文](http://citeseer.ist.psu.edu/viewdoc/download?doi=10.1.1.14.9450&rep=rep1&type=pdf)是 1995 年的，比 Flexichain 那个还老，
 有伪代码实现和一个比较严谨的 benchmark ，算是一些有趣的内容。<br/>
 里面提到了不少现在已经是历史的眼泪的编程语言，
-比如活跃于 60 年代、已经被 70 年代的 Perl、AWK 之流取代的 Cedar 编程语言和 SNOBOL 编程语言（这个似乎还有好几代）。
+比如活跃于 60 年代、已经被 90 年代的 Python、Ruby 之流取代的已经被 70 年代的 Perl、AWK 之流取代的 Cedar 编程语言和 SNOBOL 编程语言（这个似乎还有好几代）。
 
 ### 简易实现
 
