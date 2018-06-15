@@ -66,7 +66,7 @@
 
 - name: hex
   name_cn: 16 进制
-  url: http://nyanblog.net
+  url: http://十六进制可能不.在线
 
 - name: BennyHuo / KotlinCN
   name_cn: "BennyHuo / Kotlin 中文站"
@@ -113,3 +113,7 @@
 
 - name: 开源哥
   url: http://gilgamesh.me
+
+- name: YeungKC
+  url: https://YeungKC.com
+
