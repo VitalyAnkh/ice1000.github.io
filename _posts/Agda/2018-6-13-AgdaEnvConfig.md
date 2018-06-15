@@ -104,7 +104,54 @@ module Hello where
 
 这两种情况下，下面那个滴点儿大的 buffer 会有错误信息。
 
+## 写点代码吧
 
+我们可以试着写点代码。比如，定义一个 GADT:
 
+```haskell
+data List (A : Set) : Set where
+  [] : Set A
+  _::_ : A -> List A -> List A
+```
 
+按 <kbd>Ctrl</kbd>+<Kbd>C</kbd> <kbd>Ctrl</kbd>+<kbd>L</kbd> 出现高亮。
+然后我们编写一个函数，并不写实现：
+
+```haskell
+emptyList : {A : Set} -> List A
+emptyList = ?
+```
+
+对，你没有看错，我们需要在代码里写下这个问号，表示我们暂时不确定这个地方可以写什么。
+Agda 强大的类型系统拥有辅助程序员填写问号内的内容的功能，有时还可以直接自己填写实现。
+
+按 <kbd>Ctrl</kbd>+<Kbd>C</kbd> <kbd>Ctrl</kbd>+<kbd>L</kbd> 再次出现高亮，你会发现代码变成了这样：
+
+```haskell
+emptyList : {A : Set} -> List A
+emptyList = { }?
+```
+
+这个绿色背景的 `{ }?` 就是 Agda 的洞，表示一个还没想好怎么写的表达式，在下面的滴点儿大的 buffer 里注明了它的类型。
+把光标放在那个洞里面，按 <kbd>Ctrl</kbd>+<Kbd>C</kbd> <kbd>Ctrl</kbd>+<kbd>A</kbd>
+，你会发现 Agda 给这个洞填入了一个值。
+
+```haskell
+emptyList : {A : Set} -> List A
+emptyList = []
+```
+
+Idris, Coq 都具有这样的功能。
+
+我说完啦。
+
+## 为什么要写这篇文章
+
+最近被 [@16](https://github.com/hexadecimaaal) 拉着写的 Agda 代码比你们想象的要多，
+又产生了写博客的欲望。
+
+我的计划是，先使用 Literate Agda 重写之前的几篇博客，摆脱傻逼 LaTeX 代码，然后继续更新这个系列。
+
+更新会发布到 zju lambda 的网站（如果龙神给这个网站续命了的话），我的博客，和知乎。<br/>
+用 Literate Agda 重写的博客不会重新发布到知乎。
 
