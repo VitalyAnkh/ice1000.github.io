@@ -34,7 +34,7 @@ auto operator new(std::size_t __sz) -> void * {
 #include <notstddef.h>
 #undef size_t
 
-typedef unsigned long size_t
+typedef unsigned long size_t;
 
 auto operator new(std::size_t __sz) -> void * {
   // 玄妙的实现
