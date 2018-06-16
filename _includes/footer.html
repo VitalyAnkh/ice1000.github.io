@@ -9,21 +9,26 @@
 			<a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
 		</li>
 		{% endfor %}
-		<div class="busuanzi-count">
-			<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-			<span class="site-uv" title="unique users visited&nbsp;总点击人数">
-					<img src="/assets/svg/person.svg" width="10" height="16">
-			<span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
-			&nbsp;&nbsp;|&nbsp;&nbsp;
-			<span class="site-pv" title="total visited&nbsp;总点击量">
-					<img src="/assets/svg/eye.svg" width="16" height="16">
-			<span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
-			&nbsp;&nbsp;|&nbsp;&nbsp;
-			<span class="page-pv" title="single page visited&nbsp;本页面点击人数">
-					<img src="/assets/svg/file-text.svg" width="12" height="16">
-			<span class="busuanzi-value" id="busuanzi_value_page_pv"></span></span>
-		</div>
 	</ul>
+	<div class="busuanzi-count" style="font-size: 0.7em; display: block; text=-align: center; margin: 0 auto; vertical-align: middle;">
+                <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+                <span class="site-uv" title="unique users visited&nbsp;总点击人数">
+                                <img src="/assets/svg/person.svg" width="10" height="16">
+                <span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <span class="site-pv" title="total visited&nbsp;总点击量">
+                                <img src="/assets/svg/eye.svg" width="16" height="16">
+                <span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <span class="page-pv" title="single page visited&nbsp;本页面点击人数">
+                                <img src="/assets/svg/file-text.svg" width="12" height="16">
+                <span class="busuanzi-value" id="busuanzi_value_page_pv"></span></span>
+        </div>
+
+	<!-- back to top --->
+	<div id="hBakcToTop" style="display: none;">TOP</div>
+	<script>
+	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 	        type="text/javascript"></script>
 	{% if page.inline_latex %}

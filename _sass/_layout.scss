@@ -41,11 +41,11 @@ html {
 
 body {
 	width: 100%;
-	max-width: 60em;
-	padding: 0 2.5%;
+	/*max-width: 60em;*/
+	padding: 2.5% 0 2.5% 0;
 	font: normal normal normal 100% neuton, serif;
 	font-size: 20px;
-	margin: 0 auto;
+	margin: 0;
 	color: #444;
 }
 
@@ -132,10 +132,12 @@ p a:visited:active {
 }
 
 pre {
-	word-wrap: break-word;
-	white-space: pre-wrap;
+	word-wrap: normal;//break-word
+	white-space: pre;//pre-wrap
 	padding: 4px;
 	background-color: #eff0f1;
+	overflow-x: auto;
+	border-radius: 4px;
 }
 
 code {
@@ -178,13 +180,19 @@ nav.pagination {
 }
 
 nav img {
-	height: 50px;
+	height: 2em;
+	vertical-align: middle;
 }
 
 nav img.radius {
 	width: 20px;
 	height: 20px;
 	border-radius: 1.5em;
+}
+
+nav span {
+	display: block;
+	font-size: 0.8em;
 }
 
 nav ul {
@@ -196,7 +204,7 @@ nav ul {
 }
 
 nav li {
-	width: 45px;
+	/*width: 45px;*/
 	margin: 0 2%;
 	font-size: .9em;
 	text-align: center;
@@ -207,10 +215,16 @@ nav li {
 nav li a {
 	font-weight: 200;
 	border: 0;
+	display: inline-block;
 }
 
 nav li.current a {
 	color: #444;
+}
+
+p.date {
+	font-size: 0.7em;
+	color: #ccc;
 }
 
 article {
@@ -295,6 +309,16 @@ footer {
 	padding: 1em 0;
 	border-top: 1px solid #000;
 	text-align: center;
+}
+
+div.cc-license {
+	display: block;
+	word-break: break-all;
+	padding: 0 2.5%;
+	font-size: 0.8em;
+	img {
+		margin: 0 auto;
+	}
 }
 
 .twitter-tweet {
