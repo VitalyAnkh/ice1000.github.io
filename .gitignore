@@ -8,3 +8,4 @@ Gemfile.lock
 .idea/
 .jekyll-metadata
 app.css
+assets/lagda/html

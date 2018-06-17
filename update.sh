@@ -1,29 +1,34 @@
+echo "###############################"
+echo "####### current status ########"
+echo "###############################"
+
 git status
 
-echo ""
-echo "pulling..."
+echo "###############################"
+echo "########## pulling ############"
+echo "###############################"
 
 git pull origin master
 
-git status
-
-echo ""
-read -p "Enter commit message:"
+echo "###############################"
+read -p "### Enter commit message:"
+echo "###############################"
 
 rm *~
 rm **/*~
 rm **/**/*~
 
 git add *
-git stage *
+git add .*
 git commit -a -m "${REPLY}"
 
-git status
-
-echo ""
-echo "commit finished"
+echo "###############################"
+echo "########## pushing ############"
+echo "###############################"
 
 git gc
 git push https://ice1000@github.com/ice1000/ice1000.github.io.git master
 
-echo "hia hia I have finished"
+echo "###############################"
+echo "########## finished ###########"
+echo "###############################"

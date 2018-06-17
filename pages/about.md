@@ -20,9 +20,15 @@ loves animals (like snakes), and sports (football and yoyo).
 
 Usually use *ice1000*, *千里冰封* or *Tesla Ice Zhang* as my ID.
 
-+ [Resume](../resume)
++ [**Resume**](../resume)
 
 + [**My Opensource Contributions**](../opensource-contributions/)
+
++ Meet me on
+  + [GitHub][gh]
+  + [Bintray][bt]
+  + [StackOverflow][so]
+  + [CodeWars][cw]
 
 + Contact
   + [E-mail](mailto:ice1000@kotliner.cn)
@@ -37,6 +43,11 @@ Usually use *ice1000*, *千里冰封* or *Tesla Ice Zhang* as my ID.
 + [Some interesting code snippets](../gists/)
 
 [![](http://stackexchange.com/users/flair/9532102.png)](http://stackoverflow.com/users/7083401/ice1000 "profile for ice1000 at Stack Overflow, Q&A for professional and enthusiast programmers")
+
+ [gh]: https://github.com/{{ site.github_username }}
+ [bt]: https://bintray.com/ice1000
+ [so]: http://stackoverflow.com/users/7083401/ice1000
+ [cw]: http://www.codewars.com/users/ice1000
 
 ### Meaning of the blog's name
 
