@@ -70,10 +70,10 @@ layout: default
 			{% endif %}
 			{% for count in (2..paginator.total_pages) %}
 			&#8759;ʳ {% if count == paginator.page %}
-			<a href="javascript:" style="padding: 8px; border-radius: 5px; background: #00bcd46e;"
+			<a href="javascript:" style="padding: 0 4px;border-radius: 5px; background: #00bcd46e;"
 			   class="active btn btn-outline"> {{count}}</a>
 			{% else %}
-			<a href="/page{{count}}" style="padding: 8px; border-radius: 5px; background: #00bcd46e;" class="btn btn-outline">
+			<a href="/page{{count}}" style="padding: 0 4px; border-radius: 5px; background: #00bcd46e;" class="btn btn-outline">
 				{{count}}</a>
 			{% endif %}
 			{% endfor %}
