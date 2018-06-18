@@ -129,11 +129,11 @@ Agda 强大的类型系统拥有辅助程序员填写问号内的内容的功能
 
 ```haskell
 emptyList : {A : Set} -> List A
-emptyList = { }?
+emptyList = { }0
 ```
 
-这个绿色背景的 `{ }?` 就是 Agda 的洞，表示一个还没想好怎么写的表达式，在下面的滴点儿大的 buffer 里注明了它的类型。
-把光标放在那个洞里面，按 <kbd>Ctrl</kbd>+<Kbd>C</kbd> <kbd>Ctrl</kbd>+<kbd>A</kbd>
+这个绿色背景的 `{ }0` 就是 Agda 的 『洞』，表示一个还没想好怎么写的表达式，在下面的滴点儿大的 buffer 里注明了它的类型。
+把光标放在那个『洞』里面，按 <kbd>Ctrl</kbd>+<Kbd>C</kbd> <kbd>Ctrl</kbd>+<kbd>A</kbd>
 ，你会发现 Agda 给这个洞填入了一个值。
 
 ```haskell
