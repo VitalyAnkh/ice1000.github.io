@@ -43,7 +43,7 @@ body {
 	width: 100%;
 	/*max-width: 60em;*/
 	padding: 2.5% 0 2.5% 0;
-	font: normal normal normal 100% neuton, serif;
+	font: normal normal normal 100% neuton, sans-serif;
 	font-size: 20px;
 	margin: 0;
 	color: #444;
@@ -131,6 +131,12 @@ p a:visited:active {
 	border-bottom: 1px solid #000;
 }
 
+//div.article-meta {
+//	margin-top: 1.3em;
+//	font-size: 0.7em;
+//	color: #999;
+//}
+
 pre {
 	word-wrap: normal;//break-word
 	white-space: pre;//pre-wrap
@@ -159,7 +165,10 @@ aside footer {
 
 .container,
 nav {
-	width: 100%;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	//height:
 }
 
 .container:after,
@@ -222,9 +231,9 @@ nav li.current a {
 	color: #444;
 }
 
-p.date {
-	font-size: 0.7em;
-	color: #ccc;
+p.date, span.date {
+	font-size: 0.6em;
+	color: #999;
 }
 
 article {
@@ -253,17 +262,25 @@ kbd {
 .container {
 	padding: 0 2.5%;
 	line-height: 1.5em;
+	& > ul {
+		list-style: none;
+		padding: 0;
+	}
+	li {
+		font-weight: 200;
+		padding: .5em 0;
+	}
 }
 
-.container > ul {
-	list-style: none;
-	padding: 0;
-}
-
-.container li {
-	font-weight: 200;
-	padding: .5em 0;
-}
+//.container > ul {
+//	list-style: none;
+//	padding: 0;
+//}
+//
+//.container li {
+//	font-weight: 200;
+//	padding: .5em 0;
+//}
 
 .blog {
 	list-style: none;
@@ -274,10 +291,10 @@ kbd {
 	margin-bottom: 2.5em;
 }
 
-.date {
-	margin: 0;
-	font-size: 1.1em;
-}
+//.date {
+//	margin: 0;
+//	font-size: 1.1em;
+//}
 
 .tweet {
 	background: #55acee;
@@ -325,3 +342,10 @@ div.cc-license {
 	width: 95% !important;
 	margin: 0 auto !important;
 }
+
+///* icons */
+//.icon-s {
+//	width: 100%;
+//	height: 100%;
+//	display: inline-box;
+//}
