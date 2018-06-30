@@ -10,3 +10,4 @@ Gemfile.lock
 app.css
 assets/lagda/html
 *.agdai
+Gemfile
