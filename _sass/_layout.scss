@@ -37,6 +37,7 @@ code::-webkit-scrollbar-thumb {
 body,
 html {
 	background: #fff;
+	hyphens: auto;
 }
 
 body {
@@ -71,13 +72,13 @@ h1 {
 	margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0.5em;
+}
+
 //article > h1 {
 //	margin-top: -.5em;
 //}
-
-h1 + h2 {
-	margin: 0 0 1em;
-}
 
 h2 {
 	font-size: 1.2em;
@@ -263,7 +264,7 @@ kbd {
 
 .container {
 	padding: 0 2.5%;
-	line-height: 1.5em;
+	line-height: 1.25em;
 	& > ul {
 		list-style: none;
 		padding: 0;
