@@ -21,8 +21,8 @@ loves animals (like snakes), and sports (football and yoyo).
 Usually use *ice1000*, *千里冰封* or *Tesla Ice Zhang* as my ID.
 
 + [**Resume**](../resume)
-
 + [**My Opensource Contributions**](../opensource-contributions/)
++ Activity on [YouTrack][yt]
 
 + Meet me on
   + [GitHub][gh]
@@ -31,23 +31,28 @@ Usually use *ice1000*, *千里冰封* or *Tesla Ice Zhang* as my ID.
   + [CodeWars][cw]
 
 + Contact
-  + [E-mail](mailto:ice1000@kotliner.cn)
-+ Subscribe
+  + [E-mail][mail]
++ Subscribe this blog
   + [RSS](../feed.xml)
   + [Other subscriptions](../subscribe)
 + Personal information
-  + [GitHub profile analysis](https://github-profile-summary.com/user/ice1000)
+  + [GitHub profile analysis][gh sum]
   + [CodeWars](../codewars/)
-  + [**StackOverflow developer story**](http://stackoverflow.com/story/ice1000)
-    + [save as PDF](https://stackoverflow.com/users/story/pdf/7083401?View=Pdf)
+  + [**StackOverflow developer story**][so ds]
+    + [save as PDF][so ds pdf]
 + [Some interesting code snippets](../gists/)
 
 [![](http://stackexchange.com/users/flair/9532102.png)](http://stackoverflow.com/users/7083401/ice1000 "profile for ice1000 at Stack Overflow, Q&A for professional and enthusiast programmers")
 
  [gh]: https://github.com/{{ site.github_username }}
+ [gh sum]: https://github-profile-summary.com/user/ice1000
  [bt]: https://bintray.com/ice1000
  [so]: http://stackoverflow.com/users/7083401/ice1000
+ [so ds]: http://stackoverflow.com/story/ice1000
+ [so ds pdf]: https://stackoverflow.com/users/story/pdf/7083401?View=Pdf
  [cw]: http://www.codewars.com/users/ice1000
+ [yt]: https://youtrack.jetbrains.com/issues?q=by:%20ice1000
+ [mail]: mailto:ice1000@kotliner.cn
 
 ### Meaning of the blog's name
 

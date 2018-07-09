@@ -18,23 +18,39 @@ permalink: /about-cn/
 一般使用『ice1000』，『千里冰封』或『Tesla Ice Zhang』作为我的 ID 。
 
 + [简历](../resume-cn/)
-
 + [**我的开源社区贡献**](../opensource-contributions/)
++ 在 [YouTrack][yt] 活跃
+
++ 社交账户
+  + [GitHub][gh]
+  + [Bintray][bt]
+  + [StackOverflow][so]
+  + [CodeWars][cw]
 
 + 联系我
   + [QQ 群](http://shang.qq.com/wpa/qunwpa?idkey=b75f6d506820d00cd5e7fc78fc5e5487a3444a4a6af06e9e6fa72bccf3fa9d1a)
-  + [电子邮件](mailto:ice1000@kotliner.cn)
+  + [电子邮件][mail]
 + 订阅
   + [其他方式](../subscribe-cn/)
   + [RSS](../feed.xml)
 + 个人信息
-  + [GitHub 用户分析](https://github-profile-summary.com/user/ice1000)
+  + [GitHub 用户分析][gh sum]
   + [CodeWars](../codewars-cn/)
-  + [**StackOverflow 开发者故事**](http://stackoverflow.com/story/ice1000)
-    + [保存为 pdf](https://stackoverflow.com/users/story/pdf/7083401?View=Pdf)
+  + [**StackOverflow 开发者故事**][so ds]
+    + [保存为 pdf][so ds pdf]
 + [一些有趣的代码片段](../gists/)
 
 [![](http://stackexchange.com/users/flair/9532102.png)](http://stackoverflow.com/users/7083401/ice1000 "profile for ice1000 at Stack Overflow, Q&A for professional and enthusiast programmers")
+
+ [gh]: https://github.com/{{ site.github_username }}
+ [gh sum]: https://github-profile-summary.com/user/ice1000
+ [bt]: https://bintray.com/ice1000
+ [so]: http://stackoverflow.com/users/7083401/ice1000
+ [so ds]: http://stackoverflow.com/story/ice1000
+ [so ds pdf]: https://stackoverflow.com/users/story/pdf/7083401?View=Pdf
+ [cw]: http://www.codewars.com/users/ice1000
+ [yt]: https://youtrack.jetbrains.com/issues?q=by:%20ice1000
+ [mail]: mailto:ice1000@kotliner.cn
 
 ### 这个博客的名字的含义
 
