@@ -32,7 +32,7 @@ layout: default
 					{{ post.content | strip_html | truncate: 100 }}
 				</div>
 			</article>
-			<!--
+			{% comment %}
 			<a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
 				</h1>
 				<div style="font-size: medium; text-indent: 2em;"  class="content">
@@ -48,7 +48,7 @@ layout: default
 					{% for keyword in post.keywords %}
 						<span style="/*font-size: medium;*/ ">{{ keyword }}</span>
 					{% endfor %}
-			-->
+			{% endcomment %}
 		</li>
 		<br/>
 		{% endfor %}
@@ -57,34 +57,33 @@ layout: default
 	<nav class="pagination">
 		<div class="btn-group">
 			{% if paginator.previous_page %}
-			{% if paginator.previous_page == 1 %}
-			<a href="/" class="btn btn-outline">&laquo;</a>
+				{% if paginator.previous_page == 1 %}
+					<a href="/" class="btn btn-outline">&laquo;</a>
+				{% else %}
+					<a href="/page{{paginator.previous_page}}" class="btn btn-outline">&laquo;</a>
+				{% endif %}
 			{% else %}
-			<a href="/page{{paginator.previous_page}}" class="btn btn-outline">&laquo;</a>
-			{% endif %}
-			{% else %}
-			<button disabled="disabled" class="btn btn-outline">&laquo;</button>
+				<a class="btn btn-outline inactive">&laquo;</a>
 			{% endif %}
 			&nbsp;
 			{% if paginator.page == 1 %}
-			<a href="javascript:" class="active btn btn-outline">1</a>
+				<a class="inactive">1</a>
 			{% else %}
-			<a href="/" class="btn btn-outline">[]</a>
+				<a href="/">1</a>
 			{% endif %}
 			{% for count in (2..paginator.total_pages) %}
-			&#8759;ʳ {% if count == paginator.page %}
-			<a href="javascript:" style="padding: 0 4px;border-radius: 5px; background: #00bcd46e;"
-			   class="active btn btn-outline"> {{count}}</a>
-			{% else %}
-			<a href="/page{{count}}" style="padding: 0 4px; border-radius: 5px; background: #00bcd46e;" class="btn btn-outline">
-				{{count}}</a>
-			{% endif %}
+				:: {% if count == paginator.page %}
+					<a class="inactive"> {{count}}</a>
+				{% else %}
+					<a href="/page{{count}}">
+						{{count}}</a>
+				{% endif %}
 			{% endfor %}
 			&nbsp;
 			{% if paginator.next_page %}
-			<a href="/page{{paginator.next_page}}" class="btn btn-outline">&raquo;</a>
+				<a href="/page{{paginator.next_page}}" class="btn btn-outline">&raquo;</a>
 			{% else %}
-			<button disabled="disabled" href="javascript:;" class="btn btn-outline">&raquo;</button>
+				<a class="btn btn-outline inactive">&raquo;</a>
 			{% endif %}
 		</div>
 	</nav>

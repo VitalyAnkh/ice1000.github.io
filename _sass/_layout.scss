@@ -66,7 +66,7 @@ h3 {
 
 h1 {
 	font-size: 1.5em;
-	line-height: 1.1em;
+	line-height: 1.3em;
 	font-weight: 200;
 	font-style: normal;
 	margin: 0;
@@ -239,9 +239,6 @@ p.date, span.date {
 	height: 24px;
 }
 
-article {
-}
-
 article sub,
 article sup {
 	font-family: neuton, serif;
@@ -352,3 +349,37 @@ div.cc-license {
 //	height: 100%;
 //	display: inline-box;
 //}
+
+nav.pagination {
+	margin-bottom: 1em;
+	width: 100%;
+	a {
+		font-weight: normal;
+		font-size: 0.8em;
+		line-height: 1.25em;
+		display: inline-block;
+		border-radius: 0.3em;
+		background: #00bcd46e;
+		padding: 0.2em 0.4em;
+		margin: 0.1em 0;
+		&.inactive {
+			background: none;
+			cursor: unset;
+			border-bottom: unset; /* Agda.css patch */
+			&:hover { background: unset; /* Agda.css patch */ }
+		}
+	}
+	.btn {
+		border: 1px sloid #ccc;
+		background: #fff;
+		line-height: 1.1em;
+		font-size: 1rem;
+		display: inline-block;
+		cursor: pointer;
+		.disabled {
+			background: none;
+			cursor: unset;
+			&:hover { background: unset; /* Agda.css patch */ }
+		}
+	}
+}
