@@ -5,6 +5,7 @@ category: Agda
 tags: Agda, Emacs
 keywords: Agda, Emacs
 description: Agda env and stdlib config
+agda: true
 ---
 
 前面讲了辣么多 Agda 的语言特性、写证明的思路等，但是都没有介绍 Agda 的具体编程方法，所以我先补上这个空缺。

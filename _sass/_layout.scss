@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+$titleFontList: "Baskerville Regular", "Big Caslon Medium", "Didot Regular", "Cochin Regular", "Bell MT", "Bodoni 72", "Century Schoolbook", "Cambria", "American Typewriter", "Book Antiqua", "Calisto MT", "Avenir Book", "Avenir Next", "Californian FB", "华文中宋", "方正小标宋", "方正中标宋", serif;
+
 nav ul:after {
 	content: " ";
 	display: table;
@@ -53,8 +55,8 @@ body {
 .big {
 	color: #222;
 	text-align: left;
-	font: normal normal bold 2.5em/1.1em sans-serif;
-	margin: 0 0 .5em;
+	font: normal normal bold 2.5em/1.1em $titleFontList;
+	margin: .5em 0;
 }
 
 h1,

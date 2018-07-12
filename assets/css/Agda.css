@@ -1,33 +1,33 @@
 /* Aspects. */
-.Comment       { color: #B22222 }
-.Keyword       { color: #CD6600 }
-.String        { color: #B22222 }
-.Number        { color: #A020F0 }
-.Symbol        { color: #404040 }
-.PrimitiveType { color: #0000CD }
-.Operator      {}
+pre.highlight .Comment       { color: #B22222 }
+pre.highlight .Keyword       { color: #CD6600 }
+pre.highlight .String        { color: #B22222 }
+pre.highlight .Number        { color: #A020F0 }
+pre.highlight .Symbol        { color: #404040 }
+pre.highlight .PrimitiveType { color: #0000CD }
+pre.highlight .Operator      {}
 
 /* NameKinds. */
-.Bound                  { color: black   }
-.InductiveConstructor   { color: #008B00 }
-.CoinductiveConstructor { color: #8B7500 }
-.Datatype               { color: #0000CD }
-.Field                  { color: #EE1289 }
-.Function               { color: #0000CD }
-.Module                 { color: #A020F0 }
-.Postulate              { color: #0000CD }
-.Primitive              { color: #0000CD }
-.Record                 { color: #0000CD }
+pre.highlight .Bound                  { color: black   }
+pre.highlight .InductiveConstructor   { color: #008B00 }
+pre.highlight .CoinductiveConstructor { color: #8B7500 }
+pre.highlight .Datatype               { color: #0000CD }
+pre.highlight .Field                  { color: #EE1289 }
+pre.highlight .Function               { color: #0000CD }
+pre.highlight .Module                 { color: #A020F0 }
+pre.highlight .Postulate              { color: #0000CD }
+pre.highlight .Primitive              { color: #0000CD }
+pre.highlight .Record                 { color: #0000CD }
 
 /* OtherAspects. */
-.DottedPattern      {}
-.UnsolvedMeta       { color: black; background: yellow         }
-.UnsolvedConstraint { color: black; background: yellow         }
-.TerminationProblem { color: black; background: #FFA07A        }
-.IncompletePattern  { color: black; background: #F5DEB3        }
-.Error              { color: red;   text-decoration: underline }
-.TypeChecks         { color: black; background: #ADD8E6        }
+pre.highlight .DottedPattern      {}
+pre.highlight .UnsolvedMeta       { color: black; background: yellow         }
+pre.highlight .UnsolvedConstraint { color: black; background: yellow         }
+pre.highlight .TerminationProblem { color: black; background: #FFA07A        }
+pre.highlight .IncompletePattern  { color: black; background: #F5DEB3        }
+pre.highlight .Error              { color: red;   text-decoration: underline }
+pre.highlight .TypeChecks         { color: black; background: #ADD8E6        }
 
 /* Standard attributes. */
-a { text-decoration: none }
-a[href]:hover { background-color: #B4EEB4 }
+pre.highlight a { text-decoration: none }
+pre.highlight a[href]:hover { background-color: #B4EEB4 }

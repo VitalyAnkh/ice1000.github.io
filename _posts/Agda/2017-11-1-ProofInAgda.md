@@ -6,6 +6,7 @@ tags: Agda, Proof
 keywords: Agda, Proof
 description: Proof in Agda, from 0 to 1
 inline_latex: true
+agda: true
 ---
 
 类型则命题，程序则证明。这句话表达了定理证明的一个很重要的思想。

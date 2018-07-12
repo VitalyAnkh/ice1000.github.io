@@ -6,6 +6,7 @@ tags: Agda, Proof
 keywords: Agda, Proof
 description: Proof in Agda, from 3 to 4
 inline_latex: true
+agda: true
 ---
 
 这篇文章我们来说说模式匹配的另一种特殊情况。

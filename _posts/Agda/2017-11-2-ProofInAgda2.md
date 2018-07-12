@@ -6,6 +6,7 @@ tags: Agda, Proof
 keywords: Agda, Proof
 description: Proof in Agda, from 1 to 2
 inline_latex: true
+agda: true
 ---
 
 上一篇我们说到了一个只有一步的证明，这一篇我们来看一个稍微复杂点的，组合命题的例子。

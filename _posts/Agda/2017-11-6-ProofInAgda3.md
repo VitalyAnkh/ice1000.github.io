@@ -6,6 +6,7 @@ tags: Agda, Proof
 keywords: Agda, Proof
 description: Proof in Agda, from 1 to 2
 inline_latex: true
+agda: true
 ---
 
 上一篇说了很多只有一种情况的证明，这一篇说个有两种情况的。

@@ -6,6 +6,7 @@ tags: Agda, Proof
 keywords: Agda, Proof, Coinductive
 description: Proof in Agda, from 4 to 5
 inline_latex: true
+agda: true
 ---
 
 最近和 [@16](https://github.com/hexadecimaaal) 聊了一些关于 Coq 的话题，16 给我讲了很多 Coq 对 coinductive
