@@ -19,17 +19,9 @@ nav ul:after {
 	background: #fff;
 }
 
-code::-webkit-scrollbar {
-	background: 0 0;
-}
-
 ::-webkit-scrollbar-thumb {
 	background: rgba(0, 0, 0, .2);
 	border: solid #fff 4px;
-}
-
-code::-webkit-scrollbar-thumb {
-	border: #f5f2f0;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -52,10 +44,28 @@ body {
 	color: #444;
 }
 
+header {
+	nav {
+		ul {
+			i.fa {
+				font-size: 2em !important;
+				font-weight: 400;
+				margin-top: 10px;
+			}
+			img, i.fa {
+				&:hover {
+					transition: all 0.2s cubic-bezier(.5,1.45,.64,1.87);
+					transform: translateY(-0.2em);
+				}
+			}
+		}
+	}
+}
+
 .big {
 	color: #222;
 	text-align: left;
-	font: normal normal bold 2.5em/1.1em $titleFontList;
+	font: normal normal bold 2.5em/1.1em 'Merriweather', "华文中宋", "方正小标宋", "方正中标宋", serif;
 	margin: .5em 0;
 }
 
@@ -76,6 +86,8 @@ h1 {
 
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0.5em;
+	font-family: 'Montserrat', "华文中宋", "方正小标宋", serif;
+	font-weight: 400;
 }
 
 //article > h1 {
@@ -88,6 +100,11 @@ h2 {
 	font-weight: 300;
 	margin-bottom: 0;
 	font-style: normal;
+}
+
+li article h2 {
+	padding-bottom: unset;
+	border-bottom: unset;
 }
 
 h2 + p {
@@ -149,11 +166,33 @@ pre {
 	border-radius: 4px;
 }
 
+li article .fa {
+	font-size: .85em !important;
+	color: #999;
+	margin-left: .5em;
+}
+
+li article .date i.fa {
+	font-size: 1.2em !important;
+	margin-left: unset;
+	margin-right: .4em;
+}
+
 code {
 	color: #000;
-	font-family: monospace;
+	font-family: "Fira Code", "Menlo", "Andale Mono", "Monaco", "Consolas", "DejaVu Sans Mono", "Courier", "Lucida Sans Unicode", monospace;
 	font-size: .85em;
 	background-color: #eff0f1;
+	padding: .08em .25em;
+	border-radius: .25em;
+}
+
+code::-webkit-scrollbar {
+	background: 0 0;
+}
+
+code::-webkit-scrollbar-thumb {
+	border: #f5f2f0;
 }
 
 aside {
@@ -303,6 +342,14 @@ kbd {
 	color: #fff;
 	padding: .5em;
 	border: 0;
+}
+
+.tweet_this {
+	color: #1dcaff;
+	&:hover i {
+		transform: translateY(-0.2em);
+		transition: transform 0.2s cubic-bezier(.5,1.45,.64,1.87);
+	}
 }
 
 .top {

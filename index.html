@@ -18,11 +18,13 @@ layout: default
 		{% for post in paginator.posts %}
 		<li>
 			<article>
-				<h1><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h1>
-				<p class="date">Date :: {{ post.date | date: "%Y, %b %-d" }}</p>
+				<h2><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+				<span class="date"><i class="fa fa-clock-o"></i>{{ post.date | date: "%Y, %b %-d" }}</span>
+				<i class="fa fa-folder"></i>
 				{% for cat in post.categories %}
 				<a style="font-size: medium; border-bottom: none !important;" href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
 				{% endfor %}
+				<i class="fa fa-tags"></i>
 				{% for keyword in post.keywords %}
 				<span style="font-size: medium; opacity: .5">
 					{{ keyword }}
