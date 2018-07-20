@@ -46,6 +46,7 @@ body {
 
 header {
 	nav {
+		font-family: Montserrat;
 		ul {
 			i.fa {
 				font-size: 2em !important;
@@ -65,8 +66,16 @@ header {
 .big {
 	color: #222;
 	text-align: left;
-	font: normal normal bold 2.5em/1.1em 'Merriweather', "华文中宋", "方正小标宋", "方正中标宋", serif;
+	font: normal normal bold 2em 'Merriweather', "华文中宋", "方正小标宋", "方正中标宋", serif;
 	margin: .5em 0;
+	word-break: break-all;
+	hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	white-space: normal;
+	word-wrap: break-word;
+	white-space: pre-wrap;
 }
 
 h1,
@@ -166,6 +175,11 @@ pre {
 	border-radius: 4px;
 }
 
+article .content.top-page {
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
 li article .fa {
 	font-size: .85em !important;
 	color: #999;
@@ -207,7 +221,7 @@ aside footer {
 
 .container,
 nav {
-	width: 75%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	//height:
@@ -301,7 +315,7 @@ kbd {
 }
 
 .container {
-	padding: 0 2.5%;
+	padding: 0 2%;
 	line-height: 1.25em;
 	& > ul {
 		list-style: none;
@@ -311,6 +325,19 @@ kbd {
 		font-weight: 200;
 		padding: .5em 0;
 	}
+}
+
+blockquote {
+	background: #f1f1f1;
+	border-left: .1em solid #ccc;
+	margin: .5em 0 .5em .2em;
+	padding: .2em .4em;
+	overflow-x: scroll;
+	font-size: .8em !important;
+	color: #555 !important;
+	word-break: keep-all;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 //.container > ul {
@@ -398,6 +425,10 @@ div.cc-license {
 //	height: 100%;
 //	display: inline-box;
 //}
+
+.copyright {
+	font: 0.8em Montserrat;
+}
 
 nav.pagination {
 	margin-bottom: 1em;

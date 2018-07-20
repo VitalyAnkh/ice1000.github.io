@@ -3,9 +3,9 @@ layout: default
 ---
 
 <section class="container">
-	<p style="padding: .5em 0;">
+	<p>
 		<span class="big">Intermediate Representation</span><br/>
-		<span style="font-size: medium; ">
+		<span style="font-size: medium; margin: .5em 0 ">
 			如果翻译器对程序进行了彻底的分析而非某种机械的变换，而且生成的中间程序与源程序之间已经没有很强的相似性，我们就认为这个语言是编译的。彻底的分析和非平凡的变换，是编译方式的标志性特征。
 			<br/>
 			如果你对知识进行了彻底的分析而非某种机械的套弄，在你脑中生成的概念与生硬的文字之间已经没有很强的相似性，我们就认为这个概念是被理解的。彻底的分析和非凡的变换，是获得真知的标志性特征。
@@ -30,8 +30,8 @@ layout: default
 					{{ keyword }}
 				</span>
 				{% endfor %}
-				<div style="font-size: medium;" class="content">
-					{{ post.content | strip_html | truncate: 100 }}
+				<div style="font-size: medium;" class="content top-page">
+					{{ post.content | strip_html | truncate: 250 }}
 				</div>
 			</article>
 			{% comment %}
