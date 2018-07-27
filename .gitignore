@@ -12,3 +12,4 @@ assets/lagda/html
 *.agdai
 Gemfile
 .sass-cache
+.vscode
