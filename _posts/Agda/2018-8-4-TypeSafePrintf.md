@@ -9,7 +9,8 @@ inline_latex: true
 agda: true
 ---
 
-居然被杨老板邀请了，受宠若惊。我觉得他多半是点了所有知乎推荐的邀请列表里面的人，然后我又比较水才上榜的。<br/>
+[完整问题描述](https://pdfs.semanticscholar.org/27f2/393d75a63288871c546b57c03bb4d8ae7a19.pdf)
+
 首先我自己想了一个比较 naive 的实现，是把`printf`的填充变量的参数做成一个`List`，然后对这个`List`通过 dependent function 的特性进行一些限制，达到类型安全的效果（比如传入一个该`List`合法的证明）。<br/>
 于是我写了一个很丑很幼稚很年轻很简单的实现，最后发现传递证明比较繁琐，肯定是不理想的，遂放弃（并没有很好地理由 dependent type 的类型系统对输入做约束）。代码已经写不下去了，存了一个在[gist](/gist/safe-printf-agda-givenup/)上。<br/>
 然后我看到了 dram 的回答，写的很 inspiring（首先用一个函数根据输入类型返回`printf`的类型，然后再写真正的实现），然后我学习了一波之后弄了一个 Agda 的。由于 Agda 对浮点的支持好像很挫，我就把对浮点数的支持改成了对`Char`类型的支持。<br/>
