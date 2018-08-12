@@ -52,7 +52,9 @@ permalink: /about-cn/
  [yt]: https://youtrack.jetbrains.com/issues?q=by:%20ice1000
  [mail]: mailto:ice1000@kotliner.cn
 
-### 这个博客的名字的含义
+## 这个博客的名字的含义
+
+这个博客的名字是『中间表示』，是受到《Programming Language Pragmatics》中一段文字的启发而来的。
 
 > 如果翻译器对程序进行了彻底的分析而非某种机械的变换，而且生成的中间程序与源程序之间已经没有很强的相似性，我们就认为这个语言是编译的。彻底的分析和非平凡的变换，是编译方式的标志性特征。
 

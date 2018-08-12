@@ -12,7 +12,7 @@ permalink: /about/
 
 # About
 
-Welcome to my blog *intermediate representation* (IR).
+Welcome to my blog *Intermediate Representation* (IR).
 
 I am a student, programming for interest,
 Interested in code editor / programming language designs and implementations,
@@ -54,7 +54,9 @@ Usually use *ice1000*, *千里冰封* or *Tesla Ice Zhang* as my ID.
  [yt]: https://youtrack.jetbrains.com/issues?q=by:%20ice1000
  [mail]: mailto:ice1000@kotliner.cn
 
-### Meaning of the blog's name
+## Meaning of the blog's name
+
+The name of the blog is *Intermediate Representation*, it's inspired from a paragraph in *Programming Language Pragmatics*.
 
 > We still say that a language is compiled if the translator analyzes it thoroughly (rather than effecting some
 > *"mechanical"* transformation), and if the intermediate program does not bear a strong resemblance to the source.
