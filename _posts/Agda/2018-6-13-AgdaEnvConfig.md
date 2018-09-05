@@ -111,7 +111,7 @@ module Hello where
 
 ```haskell
 data List (A : Set) : Set where
-  [] : Set A
+  [] : List A
   _::_ : A -> List A -> List A
 ```
 
