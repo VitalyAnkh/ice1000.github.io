@@ -7,6 +7,8 @@ keywords: ice1000
 description: Zhihu answer copy
 ---
 
+## 原文
+
 首先为什么有那么多编程语言？为什么你们都不去用 C 语言？
 
 面对服务端开发，我们有了 Py，Ruby，Java，Go，Rust；面对科学计算我们有 Julia，R；面对网页应用我们有 JS，TS；面对 Gnome 的 GUI 开发我们有了 Vala；面向字符串拼接我们有了 AWK，Perl，SNOBOL4；面向拯救人类我们有 Coq，Agda，Idris，F\*，面向游戏我们有 Lua，C\#，F\#，面向毁灭宇宙我们有 NatsuLang。
@@ -30,5 +32,9 @@ description: Zhihu answer copy
 + Haskell 有很厉害的 fusion。
 + Haskell，Idris，Agda 都有 lazy。
 + unwrap lambda 是一个叫 absal 的语言里出现的，是沙沙告诉我的。
++ 正则表达式的编译和 JIT 是梨梨喵弄的，类似 `Pattern.compile` 但是还可以弄虚拟机，优化字节码什么的。
++ Tokenizer 和 Grammar Analyzer 是梗，只会这些当然是不可能称霸一方的。
++ NatsuLang 确实是世界上最好的语言。
++ Perl6 和 Nimlang 可以修改自己的语法。
 
 From https://www.zhihu.com/question/39304476/answer/484974255
