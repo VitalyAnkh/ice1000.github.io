@@ -21,4 +21,14 @@ description: Zhihu answer copy
 
 编译技术就是这样的，好玩。
 
+## 一些解释
+
+这部分内容是知乎上没有的。
+
++ 前面说的受语义影响导致做不了 JIT 的是 Python。
++ 反观语言简单的 Java，就有 JIT，而且分两道 pass，很科学。
++ Haskell 有很厉害的 fusion。
++ Haskell，Idris，Agda 都有 lazy。
++ unwrap lambda 是一个叫 absal 的语言里出现的，是沙沙告诉我的。
+
 From https://www.zhihu.com/question/39304476/answer/484974255
